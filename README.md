@@ -16,7 +16,9 @@ The project is designed as a hands-on portfolio for system administration roles.
 - User Context: Initial setup performed as root, subsequent tasks executed with a sudo-enabled user
 ## Initial Setup (Root SSH & PuTTY)
 <img width="1184" height="542" alt="image" src="https://github.com/user-attachments/assets/e6ee97f1-5c64-4b79-b4f6-40c547f211f5" />
+
 ```bash
+
 # Verify SSH service status
 systemctl status sshd
 The output confirms that the SSH service is active and running.
