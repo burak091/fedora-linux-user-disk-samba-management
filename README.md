@@ -20,10 +20,8 @@ The project is designed as a hands-on portfolio for system administration roles.
 systemctl status sshd 
 #The output confirms that the SSH service is active and running.</code></pre>
 <img width="562" height="158" alt="image" src="https://github.com/user-attachments/assets/f9c81ac6-35cd-4b4d-89dc-d065abb7b2c7" />
-<pre><code>
-# The PermitRootLogin directive was reviewed in the SSH configuration file to verify root access settings.
-vi /etc/ssh/sshd_config
-</code></pre>
+<pre><code># The PermitRootLogin directive was reviewed in the SSH configuration file to verify root access settings.
+vi /etc/ssh/sshd_config</code></pre>
 <img width="1655" height="916" alt="image" src="https://github.com/user-attachments/assets/fb195fdc-27a3-441a-a431-80dfaa6ae0a5" />
 <img width="1656" height="922" alt="image" src="https://github.com/user-attachments/assets/6542ab7d-126c-4d52-a446-70202d187062" />
 <img width="820" height="274" alt="image" src="https://github.com/user-attachments/assets/93b8d489-70e8-46eb-a38b-726e2ed72b08" />
