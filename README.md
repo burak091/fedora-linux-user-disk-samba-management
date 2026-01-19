@@ -88,6 +88,7 @@ systemctl reload sshd</code></pre>
 
 ## Firewall, SELinux and Service Verification
 <img width="1176" height="1031" alt="image" src="https://github.com/user-attachments/assets/3130261e-151e-4909-a7c8-10f77f727aa6" />
+<img width="875" height="229" alt="image" src="https://github.com/user-attachments/assets/f246f596-7fa8-4d62-b5e3-e0c039b97e9e" />
 
 ## Windows Client Access
 ## Conclusion
