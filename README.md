@@ -27,9 +27,8 @@ vi /etc/ssh/sshd_config</code></pre>
 <img width="820" height="274" alt="image" src="https://github.com/user-attachments/assets/93b8d489-70e8-46eb-a38b-726e2ed72b08" />
 <pre><code># By changing the PermitRootLogin setting from prohibit-password to yes in vi insert mode, root login via SSH is now permitted.</code></pre>
 <img width="377" height="128" alt="image" src="https://github.com/user-attachments/assets/a9d32ef1-6718-4494-bd65-1d738ae97e94" />
-<p>```bash</p>
-<p>#By executing systemctl reload sshd, the SSH daemon reads the updated configuration without stopping the service, making the changes effective immediately.</p>
-<p>systemctl reload sshd</p>
+<pre><code>#By executing systemctl reload sshd, the SSH daemon reads the updated configuration without stopping the service, making the changes effective immediately.
+systemctl reload sshd</code></pre>
 <img width="656" height="415" alt="image" src="https://github.com/user-attachments/assets/dd073478-2e00-4b85-9ae7-7c74cfcb718e" />
 ## User Management
 ## Disk and Partition Management
