@@ -10,6 +10,6 @@ disk partitioning, and Samba-based file sharing on Fedora Linux.
 ## Disk and Partition Management
 ## Mount Configuration
 ## Samba Installation and File Sharing
-## Firewall and Service Verification
+## Firewall, SELinux and Service Verification
 ## Windows Client Access
 ## Conclusion
