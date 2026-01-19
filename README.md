@@ -77,6 +77,10 @@ systemctl reload sshd</code></pre>
 <img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/7f97f099-363f-4ae6-9e01-c02b51c5ac4d" />
 <img width="485" height="272" alt="image" src="https://github.com/user-attachments/assets/ee7945fe-9516-4438-a922-dfb65755a056" />
 <img width="563" height="303" alt="image" src="https://github.com/user-attachments/assets/7e9c3d72-e1e0-47d8-9d3a-94d925585e1a" />
+<img width="406" height="109" alt="image" src="https://github.com/user-attachments/assets/ceb51411-ac36-4ddd-898a-065e566f2279" />
+<img width="949" height="932" alt="image" src="https://github.com/user-attachments/assets/1767b919-171f-4399-95b3-85c9f7e642f6" />
+<img width="1117" height="1030" alt="image" src="https://github.com/user-attachments/assets/799717b8-6b26-4999-8c76-f5d8d9297093" />
+
 
 ## Firewall, SELinux and Service Verification
 ## Windows Client Access
