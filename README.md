@@ -31,6 +31,14 @@ vi /etc/ssh/sshd_config</code></pre>
 systemctl reload sshd</code></pre>
 <img width="656" height="415" alt="image" src="https://github.com/user-attachments/assets/dd073478-2e00-4b85-9ae7-7c74cfcb718e" />
 ## User Management
+<img width="383" height="96" alt="image" src="https://github.com/user-attachments/assets/82289dce-9cf4-429c-b545-a8801e1a7b57" />
+<img width="629" height="363" alt="image" src="https://github.com/user-attachments/assets/a2279397-8af4-45c6-a325-75f467e7ee1e" />
+<img width="777" height="650" alt="image" src="https://github.com/user-attachments/assets/f11416cb-00f2-4836-b130-3641335528eb" />
+<img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/d3d26800-7d77-4882-bbb8-b1a4483e7dbe" />
+<img width="418" height="130" alt="image" src="https://github.com/user-attachments/assets/d1dd50c1-07c9-4cbb-af86-c9c34af0aef7" />
+
+
+
 ## Disk and Partition Management
 ## Mount Configuration
 ## Samba Installation and File Sharing
