@@ -63,11 +63,7 @@ systemctl reload sshd</code></pre>
 <img width="551" height="239" alt="image" src="https://github.com/user-attachments/assets/f455114a-c11b-4b73-ab7f-1c092f55140c" />
 <img width="408" height="109" alt="image" src="https://github.com/user-attachments/assets/dbcf0f0b-e87d-45e1-abdc-2e4d89b6b44e" />
 <img width="1048" height="865" alt="image" src="https://github.com/user-attachments/assets/2e583b8b-b7c4-4f51-84f9-a3c7976fc812" />
-<img width="458" height="64" alt="image" src="https://github.com/user-attachments/assets/92f6c55d-c344-4669-9ce5-5cda4c02ced9" />
-<img width="1068" height="504" alt="image" src="https://github.com/user-attachments/assets/5b1f1ab6-9465-4d95-a042-cdfb8f9e701b" />
-<img width="335" height="87" alt="image" src="https://github.com/user-attachments/assets/662267e6-669c-4203-baf6-75223be0faa9" />
-<img width="717" height="399" alt="image" src="https://github.com/user-attachments/assets/a2e05829-15c9-4300-803e-a7fe8b41b4a2" />
-<img width="1050" height="1027" alt="image" src="https://github.com/user-attachments/assets/283e585d-55c6-4211-a0e6-fe84fd2c4ed2" />
+
 
 
 
