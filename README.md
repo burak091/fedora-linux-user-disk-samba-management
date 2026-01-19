@@ -38,10 +38,36 @@ systemctl reload sshd</code></pre>
 <img width="418" height="130" alt="image" src="https://github.com/user-attachments/assets/d1dd50c1-07c9-4cbb-af86-c9c34af0aef7" />
 <img width="841" height="467" alt="image" src="https://github.com/user-attachments/assets/0c9a5206-35ee-4adf-b9f9-66208ecacb22" />
 <img width="338" height="164" alt="image" src="https://github.com/user-attachments/assets/cb8dbfd6-49ed-4e64-8bbc-10fdbff6074d" />
+<img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/9b9d3045-e0fd-4d3b-838d-07d8fc1168d5" />
+<img width="356" height="113" alt="image" src="https://github.com/user-attachments/assets/84b9324e-df68-44ef-8eeb-f2f7ea46e536" />
+<img width="799" height="596" alt="image" src="https://github.com/user-attachments/assets/6ff320b7-a3d3-43cc-9842-5c8ac48c6431" />
+<img width="783" height="661" alt="image" src="https://github.com/user-attachments/assets/d4c05e6a-a71b-48b5-b669-c923cbf492ef" />
+<img width="344" height="165" alt="image" src="https://github.com/user-attachments/assets/bdbba20b-0828-485c-93c3-1d93a2c35766" />
+<img width="349" height="151" alt="image" src="https://github.com/user-attachments/assets/1b4315db-6217-43c6-aa17-47fb511c2fd8" />
+
 
 
 
 ## Disk and Partition Management
+<img width="1655" height="951" alt="image" src="https://github.com/user-attachments/assets/59189302-490c-4df4-89b9-6fcb6dd143f0" />
+<img width="757" height="732" alt="image" src="https://github.com/user-attachments/assets/edd216cc-1875-4acc-aa9e-09bc76038e5e" />
+<img width="434" height="430" alt="image" src="https://github.com/user-attachments/assets/e9198bcb-3e8e-4610-9c26-ebd4ccf6975e" />
+<img width="435" height="423" alt="image" src="https://github.com/user-attachments/assets/1d83a900-0919-473d-b7d8-566f277fcb87" />
+<img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/c63ad50e-2fa2-4275-85f4-d24cc684fd95" />
+<img width="438" height="424" alt="image" src="https://github.com/user-attachments/assets/43ae2222-626b-4783-af40-c65837cc1988" />
+<img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/2b50761c-8f64-40fa-a922-c6fd7545574c" />
+<img width="753" height="729" alt="image" src="https://github.com/user-attachments/assets/d0b08823-7725-4399-a83b-a86a6d5bf2a8" />
+<img width="491" height="294" alt="image" src="https://github.com/user-attachments/assets/54a4ec7a-1d0f-42b2-bf8a-6b781c747cec" />
+<img width="501" height="684" alt="image" src="https://github.com/user-attachments/assets/ebec5f6a-b188-471a-a649-dec48cebfdde" />
+<img width="784" height="452" alt="image" src="https://github.com/user-attachments/assets/66cb3073-dc3e-4c4c-a54e-b22004efcfc7" />
+<img width="551" height="239" alt="image" src="https://github.com/user-attachments/assets/f455114a-c11b-4b73-ab7f-1c092f55140c" />
+<img width="408" height="109" alt="image" src="https://github.com/user-attachments/assets/dbcf0f0b-e87d-45e1-abdc-2e4d89b6b44e" />
+<img width="1048" height="865" alt="image" src="https://github.com/user-attachments/assets/2e583b8b-b7c4-4f51-84f9-a3c7976fc812" />
+<img width="458" height="64" alt="image" src="https://github.com/user-attachments/assets/92f6c55d-c344-4669-9ce5-5cda4c02ced9" />
+<img width="1068" height="504" alt="image" src="https://github.com/user-attachments/assets/5b1f1ab6-9465-4d95-a042-cdfb8f9e701b" />
+
+
+
 ## Mount Configuration
 ## Samba Installation and File Sharing
 ## Firewall, SELinux and Service Verification
