@@ -20,7 +20,9 @@ The project is designed as a hands-on portfolio for system administration roles.
 ```bash
 
 # Verify SSH service status
+
 systemctl status sshd
+
 The output confirms that the SSH service is active and running.
 <img width="562" height="158" alt="image" src="https://github.com/user-attachments/assets/f9c81ac6-35cd-4b4d-89dc-d065abb7b2c7" />
 ```bash
