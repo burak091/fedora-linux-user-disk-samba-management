@@ -137,6 +137,17 @@ systemctl reload sshd</code></pre>
 <img width="980" height="630" alt="image" src="https://github.com/user-attachments/assets/6670d4a2-c584-42e8-9879-7adb485bfb19" />
 <img width="1111" height="626" alt="image" src="https://github.com/user-attachments/assets/343c0b1e-1e34-4052-8316-5d024942381f" />
 <img width="1156" height="372" alt="image" src="https://github.com/user-attachments/assets/6ba04b23-06e3-4d2a-89e1-b9f79453146c" />
+<img width="833" height="783" alt="image" src="https://github.com/user-attachments/assets/e2605f87-959c-45a8-9c2d-c8cdf63fb591" />
+<img width="1106" height="862" alt="image" src="https://github.com/user-attachments/assets/5a03a324-99ac-4538-a646-5fb3dc237716" />
+<img width="1111" height="503" alt="image" src="https://github.com/user-attachments/assets/1f7ad104-262d-4be4-8377-3d000e477246" />
+
+
+
+
+
+
+
+
 <img width="762" height="752" alt="image" src="https://github.com/user-attachments/assets/2f50c30b-7b12-44d9-bcb1-181c77b31587" />
 <img width="611" height="449" alt="image" src="https://github.com/user-attachments/assets/1562b33e-afe7-4519-bbad-f0536d9ac19e" />
 <img width="451" height="498" alt="image" src="https://github.com/user-attachments/assets/84b64dd6-0bd7-4148-93fd-6a31327bf96f" />
