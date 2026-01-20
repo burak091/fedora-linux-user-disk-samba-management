@@ -94,4 +94,9 @@ systemctl reload sshd</code></pre>
 <img width="875" height="229" alt="image" src="https://github.com/user-attachments/assets/f246f596-7fa8-4d62-b5e3-e0c039b97e9e" />
 
 ## Windows Client Access
+<img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" />
+<img width="832" height="558" alt="image" src="https://github.com/user-attachments/assets/0bf445e8-0afd-4835-be90-7b87b8353bf3" />
+<img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/775cde45-8c60-4f92-bae6-da724ac2ce95" />
+<img width="396" height="204" alt="image" src="https://github.com/user-attachments/assets/519f3c64-b4b2-41f8-b0be-d19f9cfd68f4" />
+
 ## Conclusion
