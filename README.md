@@ -97,7 +97,8 @@ systemctl reload sshd</code></pre>
 <img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" />
 <img width="832" height="558" alt="image" src="https://github.com/user-attachments/assets/0bf445e8-0afd-4835-be90-7b87b8353bf3" />
 <img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/775cde45-8c60-4f92-bae6-da724ac2ce95" />
-<img width="394" height="201" alt="image" src="https://github.com/user-attachments/assets/913ff813-193c-43de-8b9e-e7ec6c25d5ce" />
+<img width="743" height="661" alt="image" src="https://github.com/user-attachments/assets/e884d5e0-79b1-4a7a-8d06-76b7d4e44d92" />
+
 
 
 
