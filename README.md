@@ -124,7 +124,7 @@ Finally, the virtual machine was powered on again, and the operating system succ
 <img width="491" height="294" alt="image" src="https://github.com/user-attachments/assets/54a4ec7a-1d0f-42b2-bf8a-6b781c747cec" />
 <pre><code>lsblk
 sudo fdisk /dev/nvme0n1
-#The lsblk command was used to list the disks available in the system. The nvme0n2 disk contains the operating system partitions, while nvme0n1 is the newly added disk. Since nvme0n1 does not have any partitions, it is not yet ready for use. Therefore, the disk must be partitioned before it can be utilized. To create partitions on the new disk, the fdisk /dev/nvme0n1 command was executed.</code></pre>
+#The lsblk command was used to list the disks available in the system. The nvme0n2 disk contains the operating system partitions, while nvme0n1 is the newly added disk. Since nvme0n1 does not have any partitions, it is not yet ready for use. Therefore, the disk must be partitioned before it can be utilized. To create partitions on the new disk, the sudo fdisk /dev/nvme0n1 command was executed.</code></pre>
 <img width="501" height="684" alt="image" src="https://github.com/user-attachments/assets/ebec5f6a-b188-471a-a649-dec48cebfdde" />
 <img width="784" height="452" alt="image" src="https://github.com/user-attachments/assets/66cb3073-dc3e-4c4c-a54e-b22004efcfc7" />
 <img width="551" height="239" alt="image" src="https://github.com/user-attachments/assets/f455114a-c11b-4b73-ab7f-1c092f55140c" />
