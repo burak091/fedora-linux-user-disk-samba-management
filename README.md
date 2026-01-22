@@ -134,10 +134,11 @@ For the first partition, the default starting sector was accepted. This ensures 
 After creating the first partition, the n option was selected again to create a second primary partition. The default starting sector was accepted once more, allowing the partition to begin immediately after the first partition. The second partition was allocated the remaining 5 GB of the disk space.
 Once both partitions were defined, the p option was used to display the current partition table and verify the configuration. Finally, the w option was selected to write the partition table to the disk and permanently save the changes.
 <img width="1048" height="865" alt="image" src="https://github.com/user-attachments/assets/2e583b8b-b7c4-4f51-84f9-a3c7976fc812" />
-lsblk -f
-sudo mkfs.ext4 /dev nvme0n1p1
-sudo mkfs.ext4 /dev nvme0n1p2
-
+<pre><code>lsblk -f
+#By running the lsblk -f command, the newly created nvme0n1p1 and nvme0n1p2 partitions, each with a size of 5 GB, can be observed on the nvme0n1 disk. However, unlike the partitions on the nvme0n2 disk, these new partitions do not have UUID values assigned. This is because no filesystem has been created on the new disk partitions yet.
+sudo mkfs.ext4 /dev/nvme0n1p1
+sudo mkfs.ext4 /dev/nvme0n1p2
+#The sudo mkfs.ext4 /dev/nvme0n1p1 and sudo mkfs.ext4 /dev/nvme0n1p2 commands were executed to create an ext4 filesystem on the newly created partitions.After creating the filesystems, the partitions now have UUID values assigned.</code></pre>
 
 
 ## Mount Configuration
