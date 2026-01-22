@@ -60,6 +60,8 @@ gpasswd -a user2 family
 gpasswd -a user3 family
 #Using the gpasswd -a (username) (groupname) command, the users user1, user2, and user3 were added to the family group.</code></pre>
 <img width="418" height="130" alt="image" src="https://github.com/user-attachments/assets/d1dd50c1-07c9-4cbb-af86-c9c34af0aef7" />
+<pre><code>cat /etc/group | tail -n 1
+#The cat /etc/group | tail -n 1 command was executed to display the last line of the /etc/group file. The output shows the name of the most recently created group along with its member information and related details.</code></pre>
 <img width="841" height="467" alt="image" src="https://github.com/user-attachments/assets/0c9a5206-35ee-4adf-b9f9-66208ecacb22" />
 <img width="338" height="164" alt="image" src="https://github.com/user-attachments/assets/cb8dbfd6-49ed-4e64-8bbc-10fdbff6074d" />
 <img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/9b9d3045-e0fd-4d3b-838d-07d8fc1168d5" />
