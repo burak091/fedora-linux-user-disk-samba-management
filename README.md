@@ -38,14 +38,14 @@ systemctl reload sshd</code></pre>
 useradd -m user2
 useradd -m user3
 useradd -m user4
-#New user accounts were created on the system using the useradd -m <username> command, which also creates home directories for each user.</code></pre>
+#New user accounts were created on the system using the useradd -m (username) command, which also creates home directories for each user.</code></pre>
   
 <img width="629" height="363" alt="image" src="https://github.com/user-attachments/assets/a2279397-8af4-45c6-a325-75f467e7ee1e" />
 <pre><code>passwd user1
 passwd user2
 passwd user3
 passwd user4
-#The passwd <username> command is used to set or change the password of a specified user.
+#The passwd (username) command is used to set or change the password of a specified user.
 #The ‘Bad password’ warning was received because the assigned password contained fewer than eight characters. Although this is acceptable in a laboratory environment, it is essential to enforce strong password policies with complex and sufficiently long passwords in production systems to ensure security.</code></pre>
 <img width="777" height="650" alt="image" src="https://github.com/user-attachments/assets/f11416cb-00f2-4836-b130-3641335528eb" />
 <pre><code>ls /home
@@ -58,7 +58,7 @@ cat /etc/passwd
 gpasswd -a user1 family
 gpasswd -a user2 family
 gpasswd -a user3 family
-#Using the gpasswd -a <username> <groupname> command, the users user1, user2, and user3 were added to the family group.</code></pre>
+#Using the gpasswd -a (username) (groupname) command, the users user1, user2, and user3 were added to the family group.</code></pre>
 <img width="418" height="130" alt="image" src="https://github.com/user-attachments/assets/d1dd50c1-07c9-4cbb-af86-c9c34af0aef7" />
 <img width="841" height="467" alt="image" src="https://github.com/user-attachments/assets/0c9a5206-35ee-4adf-b9f9-66208ecacb22" />
 <img width="338" height="164" alt="image" src="https://github.com/user-attachments/assets/cb8dbfd6-49ed-4e64-8bbc-10fdbff6074d" />
