@@ -89,6 +89,8 @@ hostname
 <pre>root:x:0:0:Super User:/root:/bin/bash-------> root:x:0:0:Super User:/root:/usr/sbin/nologin</pre>
 <pre>#By changing the root user’s login shell from /bin/bash to /usr/sbin/nologin, the root account was prevented from logging in directly. This provides an additional layer of security, as the root account has extensive privileges and could be used to perform critical system modifications if compromised.</pre>
 <img width="344" height="165" alt="image" src="https://github.com/user-attachments/assets/bdbba20b-0828-485c-93c3-1d93a2c35766" />
+<pre><code>su - root
+#When the su - root command was executed, the message ‘This account is currently not available’ was displayed because direct login for the root account had been disabled. This confirms that the intended security measure was successfully applied.</code></pre>
 <img width="349" height="151" alt="image" src="https://github.com/user-attachments/assets/1b4315db-6217-43c6-aa17-47fb511c2fd8" />
 
 
