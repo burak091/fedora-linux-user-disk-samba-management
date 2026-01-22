@@ -38,7 +38,7 @@ systemctl reload sshd</code></pre>
 useradd -m user2
 useradd -m user3
 useradd -m user4
-#New user accounts were created on the system using the useradd -m command, which also creates home directories for each user.</code></pre>
+#New user accounts were created on the system using the useradd -m <username> command, which also creates home directories for each user.</code></pre>
   
 <img width="629" height="363" alt="image" src="https://github.com/user-attachments/assets/a2279397-8af4-45c6-a325-75f467e7ee1e" />
 <pre><code>passwd user1
