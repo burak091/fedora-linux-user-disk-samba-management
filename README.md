@@ -30,6 +30,8 @@ vi /etc/ssh/sshd_config</code></pre>
 <pre><code>#By executing systemctl reload sshd, the SSH daemon reads the updated configuration without stopping the service, making the changes effective immediately.
 systemctl reload sshd</code></pre>
 <img width="656" height="415" alt="image" src="https://github.com/user-attachments/assets/dd073478-2e00-4b85-9ae7-7c74cfcb718e" />
+<pre><code>SSH access is provided via the PuTTY terminal.</code></pre>
+
 ## User Management
 <img width="383" height="96" alt="image" src="https://github.com/user-attachments/assets/82289dce-9cf4-429c-b545-a8801e1a7b57" />
 <img width="629" height="363" alt="image" src="https://github.com/user-attachments/assets/a2279397-8af4-45c6-a325-75f467e7ee1e" />
