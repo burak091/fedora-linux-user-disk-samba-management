@@ -65,7 +65,7 @@ gpasswd -a user3 family
 <img width="841" height="467" alt="image" src="https://github.com/user-attachments/assets/0c9a5206-35ee-4adf-b9f9-66208ecacb22" />
 <pre><code>cat /etc/sudoers | tail -n 20
 touch /etc/sudoers.d/user1
-visudo /etc/sudoers/user1
+visudo /etc/sudoers/user1</code></pre>
 <img width="338" height="164" alt="image" src="https://github.com/user-attachments/assets/cb8dbfd6-49ed-4e64-8bbc-10fdbff6074d" />
 <img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/9b9d3045-e0fd-4d3b-838d-07d8fc1168d5" />
 <img width="356" height="113" alt="image" src="https://github.com/user-attachments/assets/84b9324e-df68-44ef-8eeb-f2f7ea46e536" />
