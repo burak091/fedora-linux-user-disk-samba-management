@@ -125,16 +125,18 @@ Finally, the virtual machine was powered on again, and the operating system succ
 <pre><code>lsblk
 sudo fdisk /dev/nvme0n1
 #The lsblk command was used to list the disks available in the system. The nvme0n2 disk contains the operating system partitions, while nvme0n1 is the newly added disk. Since nvme0n1 does not have any partitions, it is not yet ready for use. Therefore, the disk must be partitioned before it can be utilized. To create partitions on the new disk, the sudo fdisk /dev/nvme0n1 command was executed.</code></pre>
-<img width="501" height="684" alt="image" src="https://github.com/user-attachments/assets/ebec5f6a-b188-471a-a649-dec48cebfdde" />
-<img width="784" height="452" alt="image" src="https://github.com/user-attachments/assets/66cb3073-dc3e-4c4c-a54e-b22004efcfc7" />
-<img width="551" height="239" alt="image" src="https://github.com/user-attachments/assets/f455114a-c11b-4b73-ab7f-1c092f55140c" />
-<img width="408" height="109" alt="image" src="https://github.com/user-attachments/assets/dbcf0f0b-e87d-45e1-abdc-2e4d89b6b44e" />
+<img width="501" height="684" alt="image" src="https://github.com/user-attachments/assets/ebec5f6a-b188-471a-a649-dec48cebfdde" /><br><br>
+<img width="784" height="452" alt="image" src="https://github.com/user-attachments/assets/66cb3073-dc3e-4c4c-a54e-b22004efcfc7" /><br><br>
+<img width="551" height="239" alt="image" src="https://github.com/user-attachments/assets/f455114a-c11b-4b73-ab7f-1c092f55140c" /><br><br>
+<img width="408" height="109" alt="image" src="https://github.com/user-attachments/assets/dbcf0f0b-e87d-45e1-abdc-2e4d89b6b44e" /><br><br>
 The command fdisk /dev/nvme0n1 was executed to start the interactive partitioning tool. m option was used to display the help menu.To create a new partition, the n (new) option was selected. Since the disk did not contain any previous partitions, a primary partition was created by accepting the default partition type.
 For the first partition, the default starting sector was accepted. This ensures proper alignment with the disk’s sector boundaries and is considered best practice for performance and compatibility. The size of the first partition was defined as 5 GB by specifying the appropriate ending sector.
 After creating the first partition, the n option was selected again to create a second primary partition. The default starting sector was accepted once more, allowing the partition to begin immediately after the first partition. The second partition was allocated the remaining 5 GB of the disk space.
 Once both partitions were defined, the p option was used to display the current partition table and verify the configuration. Finally, the w option was selected to write the partition table to the disk and permanently save the changes.
 <img width="1048" height="865" alt="image" src="https://github.com/user-attachments/assets/2e583b8b-b7c4-4f51-84f9-a3c7976fc812" />
-
+lsblk -f
+sudo mkfs.ext4 /dev nvme0n1p1
+sudo mkfs.ext4 /dev nvme0n1p2
 
 
 
