@@ -147,6 +147,11 @@ sudo mkfs.ext4 /dev/nvme0n1p2
 sudo mkdir /home/user1/share2
 #The directories /share1 and /home/user1/share2 were created using the mkdir command. These directories are intended to be used as mount points for the newly configured disk partitions and will later be shared via the Samba service.</code></pre>
 <img width="1068" height="504" alt="image" src="https://github.com/user-attachments/assets/5b1f1ab6-9465-4d95-a042-cdfb8f9e701b" />
+<pre><code>sudo mount /dev/nvme0n1p1 /share1
+sudo mount /dev/nvme0n1p2 /home/user1/share2
+#The commands sudo mount /dev/nvme0n1p1 /share1 and sudo mount /dev/nvme0n1p2 /home/user1/share2 were used 
+to mount the newly created disk partitions to their respective directories. This operation makes the filesystems 
+on the partitions accessible through the system’s directory structure and prepares them for further configuration, including network sharing via Samba.</code></pre>
 <img width="335" height="87" alt="image" src="https://github.com/user-attachments/assets/662267e6-669c-4203-baf6-75223be0faa9" />
 <img width="717" height="399" alt="image" src="https://github.com/user-attachments/assets/a2e05829-15c9-4300-803e-a7fe8b41b4a2" />
 <img width="1050" height="1027" alt="image" src="https://github.com/user-attachments/assets/283e585d-55c6-4211-a0e6-fe84fd2c4ed2" />
