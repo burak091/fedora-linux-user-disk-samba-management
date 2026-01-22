@@ -116,7 +116,7 @@ hostname
 <img width="753" height="729" alt="image" src="https://github.com/user-attachments/assets/d0b08823-7725-4399-a83b-a86a6d5bf2a8" /><br><br>
 
 Before adding a new disk, the virtual machine was safely powered off using the sudo shutdown now command. After the system was completely shut down, the virtual machine hardware settings were accessed through VMware Workstation.
-From the ‘Add Hardware’ wizard, the Hard Disk option was selected, and the disk type was set to NVMe, as shown in the configuration steps.
+From the Add Hardware wizard, the Hard Disk option was selected, and the disk type was set to NVMe, as shown in the configuration steps.
 Next, the option ‘Create a new virtual disk’ was selected. The disk size was configured as 10 GB according to the project requirements. The option ‘Allocate all disk space now’ was enabled to ensure that the full disk space was reserved immediately.
 The disk was configured to be stored as a single file, and the default disk file location was accepted. After completing the setup wizard, the new NVMe disk was successfully added to the virtual machine.
 Finally, the virtual machine was powered on again, and the operating system successfully detected the newly added 10 GB NVMe disk, confirming that the disk addition process was completed successfully.
