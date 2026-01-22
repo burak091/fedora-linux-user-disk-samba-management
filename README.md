@@ -92,7 +92,9 @@ hostname
 <pre><code>su - root
 #When the su - root command was executed, the message ‘This account is currently not available’ was displayed because direct login for the root account had been disabled. This confirms that the intended security measure was successfully applied.</code></pre>
 <img width="349" height="151" alt="image" src="https://github.com/user-attachments/assets/1b4315db-6217-43c6-aa17-47fb511c2fd8" />
-
+<pre><code>sudo shutdown now
+#The system was shut down using the sudo shutdown now command in preparation for adding a new disk.
+</code></pre>
 
 
 
