@@ -76,6 +76,12 @@ visudo /etc/sudoers.d/user1
 #The rule user1 ALL=(ALL) ALL grants the user1 account permission to execute any command on any host as any user using sudo.
 </code></pre>
 <img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/9b9d3045-e0fd-4d3b-838d-07d8fc1168d5" />
+<pre><code>su - user1
+#Using the su - user1 command, the active session was changed from the root account to the user1 user, loading the user’s login environment.
+sudo hostnamectl hostname fedora43
+#Using sudo privileges, the user1 account changed the system hostname from localhost to fedora43.
+hostname
+#The output of the hostname command displays fedora43, confirming that the hostname change was successfully applied.</code></pre>
 <img width="356" height="113" alt="image" src="https://github.com/user-attachments/assets/84b9324e-df68-44ef-8eeb-f2f7ea46e536" />
 <img width="799" height="596" alt="image" src="https://github.com/user-attachments/assets/6ff320b7-a3d3-43cc-9842-5c8ac48c6431" />
 <img width="783" height="661" alt="image" src="https://github.com/user-attachments/assets/d4c05e6a-a71b-48b5-b669-c923cbf492ef" />
