@@ -53,6 +53,12 @@ passwd user4
 cat /etc/passwd
 #The cat /etc/passwd command was used to verify that the user information was successfully created in the /etc/passwd file. By examining the last four lines of the output, the details of the newly created users can be observed.</code></pre>
 <img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/d3d26800-7d77-4882-bbb8-b1a4483e7dbe" />
+<pre><code>groupadd family 
+#The groupadd family command was used to create a group named family.
+gpasswd -a user1 family
+gpasswd -a user2 family
+gpasswd -a user3 family
+#Using the gpasswd -a <username> <groupname> command, the users user1, user2, and user3 were added to the family group.</code></pre>
 <img width="418" height="130" alt="image" src="https://github.com/user-attachments/assets/d1dd50c1-07c9-4cbb-af86-c9c34af0aef7" />
 <img width="841" height="467" alt="image" src="https://github.com/user-attachments/assets/0c9a5206-35ee-4adf-b9f9-66208ecacb22" />
 <img width="338" height="164" alt="image" src="https://github.com/user-attachments/assets/cb8dbfd6-49ed-4e64-8bbc-10fdbff6074d" />
