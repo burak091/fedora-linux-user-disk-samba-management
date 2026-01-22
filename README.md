@@ -87,7 +87,7 @@ hostname
 <img width="783" height="661" alt="image" src="https://github.com/user-attachments/assets/d4c05e6a-a71b-48b5-b669-c923cbf492ef" />
 <pre><code>sudo vi /etc/passwd</code></pre>
 <pre>root:x:0:0:Super User:/root:/bin/bash-------> root:x:0:0:Super User:/root:/usr/sbin/nologin</pre>
-#By changing the root user’s login shell from /bin/bash to /usr/sbin/nologin, the root account was prevented from logging in directly. This provides an additional layer of security, as the root account has extensive privileges and could be used to perform critical system modifications if compromised.
+<pre>#By changing the root user’s login shell from /bin/bash to /usr/sbin/nologin, the root account was prevented from logging in directly. This provides an additional layer of security, as the root account has extensive privileges and could be used to perform critical system modifications if compromised.</pre>
 <img width="344" height="165" alt="image" src="https://github.com/user-attachments/assets/bdbba20b-0828-485c-93c3-1d93a2c35766" />
 <img width="349" height="151" alt="image" src="https://github.com/user-attachments/assets/1b4315db-6217-43c6-aa17-47fb511c2fd8" />
 
