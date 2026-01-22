@@ -34,6 +34,11 @@ systemctl reload sshd</code></pre>
 
 ## User Management
 <img width="383" height="96" alt="image" src="https://github.com/user-attachments/assets/82289dce-9cf4-429c-b545-a8801e1a7b57" />
+<pre><code>useradd -m user1
+  useradd -m user2
+  useradd -m user3
+  useradd -m user4</code></pre>
+  
 <img width="629" height="363" alt="image" src="https://github.com/user-attachments/assets/a2279397-8af4-45c6-a325-75f467e7ee1e" />
 <img width="777" height="650" alt="image" src="https://github.com/user-attachments/assets/f11416cb-00f2-4836-b130-3641335528eb" />
 <img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/d3d26800-7d77-4882-bbb8-b1a4483e7dbe" />
