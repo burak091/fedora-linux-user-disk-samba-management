@@ -153,6 +153,9 @@ sudo mount /dev/nvme0n1p2 /home/user1/share2
 to mount the newly created disk partitions to their respective directories. This operation makes the filesystems 
 on the partitions accessible through the system’s directory structure and prepares them for further configuration, including network sharing via Samba.</code></pre>
 <img width="335" height="87" alt="image" src="https://github.com/user-attachments/assets/662267e6-669c-4203-baf6-75223be0faa9" />
+<pre><code>sudo vi /etc/fstab
+#In order for the disk configurations to persist after a system reboot, the mounted partitions must be defined in the system disk configuration file,
+/etc/fstab. To edit this file, it is opened with the vi text editor using the command sudo vi /etc/fstab</code></pre>
 <img width="717" height="399" alt="image" src="https://github.com/user-attachments/assets/a2e05829-15c9-4300-803e-a7fe8b41b4a2" />
 <img width="1050" height="1027" alt="image" src="https://github.com/user-attachments/assets/283e585d-55c6-4211-a0e6-fe84fd2c4ed2" />
 
