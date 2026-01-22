@@ -41,6 +41,12 @@ useradd -m user4
 #New user accounts were created on the system using the useradd -m command, which also creates home directories for each user.</code></pre>
   
 <img width="629" height="363" alt="image" src="https://github.com/user-attachments/assets/a2279397-8af4-45c6-a325-75f467e7ee1e" />
+<pre><code>passwd user1
+passwd user2
+passwd user3
+passwd user4
+#The passwd <username> command is used to set or change the password of a specified user.
+#The ‘Bad password’ warning was received because the assigned password contained fewer than eight characters. Although this is acceptable in a laboratory environment, it is essential to enforce strong password policies with complex and sufficiently long passwords in production systems to ensure security.</code></pre>
 <img width="777" height="650" alt="image" src="https://github.com/user-attachments/assets/f11416cb-00f2-4836-b130-3641335528eb" />
 <img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/d3d26800-7d77-4882-bbb8-b1a4483e7dbe" />
 <img width="418" height="130" alt="image" src="https://github.com/user-attachments/assets/d1dd50c1-07c9-4cbb-af86-c9c34af0aef7" />
