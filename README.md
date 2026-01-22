@@ -48,6 +48,10 @@ passwd user4
 #The passwd <username> command is used to set or change the password of a specified user.
 #The ‘Bad password’ warning was received because the assigned password contained fewer than eight characters. Although this is acceptable in a laboratory environment, it is essential to enforce strong password policies with complex and sufficiently long passwords in production systems to ensure security.</code></pre>
 <img width="777" height="650" alt="image" src="https://github.com/user-attachments/assets/f11416cb-00f2-4836-b130-3641335528eb" />
+<pre><code>ls /home
+#The ls /home command was used to verify whether the home directories of the created users were successfully generated. The output confirms that all users have their respective home directories.
+cat /etc/passwd
+#The cat /etc/passwd command was used to verify that the user information was successfully created in the /etc/passwd file. By examining the last four lines of the output, the details of the newly created users can be observed.</code></pre>
 <img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/d3d26800-7d77-4882-bbb8-b1a4483e7dbe" />
 <img width="418" height="130" alt="image" src="https://github.com/user-attachments/assets/d1dd50c1-07c9-4cbb-af86-c9c34af0aef7" />
 <img width="841" height="467" alt="image" src="https://github.com/user-attachments/assets/0c9a5206-35ee-4adf-b9f9-66208ecacb22" />
