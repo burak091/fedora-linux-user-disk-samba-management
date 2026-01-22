@@ -65,7 +65,12 @@ gpasswd -a user3 family
 <img width="841" height="467" alt="image" src="https://github.com/user-attachments/assets/0c9a5206-35ee-4adf-b9f9-66208ecacb22" />
 <pre><code>cat /etc/sudoers | tail -n 20
 touch /etc/sudoers.d/user1
-visudo /etc/sudoers/user1</code></pre>
+visudo /etc/sudoers.d/user1
+#The cat /etc/sudoers | tail -n 20 command was used to display the last 20 lines of the /etc/sudoers file, which defines sudo privileges for users and groups on the system. Although sudo permissions can be configured directly in this file, modifying it is not recommended due to the risk of configuration errors.
+
+#Instead, the preferred and safer approach is to define sudo rules by creating a configuration file under the /etc/sudoers.d/ directory, as the sudo mechanism also reads and applies rules from this location. In this setup, sudo privileges will be explicitly granted to the user1 account by defining a dedicated rule in the /etc/sudoers.d/ directory, without relying on group-based privilege assignment.
+#To assign sudo privileges to user1, a configuration file named user1 was created under the /etc/sudoers.d/ directory.
+#The file for defining sudo privileges for user1 was opened using the visudo /etc/sudoers.d/user1 command. Sudo configuration files are edited with the visudo utility rather than a standard text editor, as visudo performs syntax validation to prevent configuration errors.</code></pre>
 <img width="338" height="164" alt="image" src="https://github.com/user-attachments/assets/cb8dbfd6-49ed-4e64-8bbc-10fdbff6074d" />
 <img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/9b9d3045-e0fd-4d3b-838d-07d8fc1168d5" />
 <img width="356" height="113" alt="image" src="https://github.com/user-attachments/assets/84b9324e-df68-44ef-8eeb-f2f7ea46e536" />
