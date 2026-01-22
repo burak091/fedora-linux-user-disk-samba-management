@@ -100,13 +100,27 @@ hostname
 
 ## Disk and Partition Management
 <img width="1655" height="951" alt="image" src="https://github.com/user-attachments/assets/59189302-490c-4df4-89b9-6fcb6dd143f0" />
+
 <img width="757" height="732" alt="image" src="https://github.com/user-attachments/assets/edd216cc-1875-4acc-aa9e-09bc76038e5e" />
+
 <img width="434" height="430" alt="image" src="https://github.com/user-attachments/assets/e9198bcb-3e8e-4610-9c26-ebd4ccf6975e" />
+
 <img width="435" height="423" alt="image" src="https://github.com/user-attachments/assets/1d83a900-0919-473d-b7d8-566f277fcb87" />
+
 <img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/c63ad50e-2fa2-4275-85f4-d24cc684fd95" />
+
 <img width="438" height="424" alt="image" src="https://github.com/user-attachments/assets/43ae2222-626b-4783-af40-c65837cc1988" />
+
 <img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/2b50761c-8f64-40fa-a922-c6fd7545574c" />
+
 <img width="753" height="729" alt="image" src="https://github.com/user-attachments/assets/d0b08823-7725-4399-a83b-a86a6d5bf2a8" />
+
+Before adding a new disk, the virtual machine was safely powered off using the sudo shutdown now command. After the system was completely shut down, the virtual machine hardware settings were accessed through VMware Workstation.
+From the ‘Add Hardware’ wizard, the Hard Disk option was selected, and the disk type was set to NVMe, as shown in the configuration steps.
+Next, the option ‘Create a new virtual disk’ was selected. The disk size was configured as 10 GB according to the project requirements. The option ‘Allocate all disk space now’ was enabled to ensure that the full disk space was reserved immediately.
+The disk was configured to be stored as a single file, and the default disk file location was accepted. After completing the setup wizard, the new NVMe disk was successfully added to the virtual machine.
+Finally, the virtual machine was powered on again, and the operating system successfully detected the newly added 10 GB NVMe disk, confirming that the disk addition process was completed successfully.
+
 <img width="491" height="294" alt="image" src="https://github.com/user-attachments/assets/54a4ec7a-1d0f-42b2-bf8a-6b781c747cec" />
 <img width="501" height="684" alt="image" src="https://github.com/user-attachments/assets/ebec5f6a-b188-471a-a649-dec48cebfdde" />
 <img width="784" height="452" alt="image" src="https://github.com/user-attachments/assets/66cb3073-dc3e-4c4c-a54e-b22004efcfc7" />
