@@ -145,7 +145,7 @@ sudo mkfs.ext4 /dev/nvme0n1p2
 <img width="458" height="64" alt="image" src="https://github.com/user-attachments/assets/92f6c55d-c344-4669-9ce5-5cda4c02ced9" />
 <pre><code>sudo mkdir /share1
 sudo mkdir /home/user1/share2
-#</code></pre>
+#The directories /share1 and /home/user1/share2 were created using the mkdir command. These directories are intended to be used as mount points for the newly configured disk partitions and will later be shared via the Samba service.</code></pre>
 <img width="1068" height="504" alt="image" src="https://github.com/user-attachments/assets/5b1f1ab6-9465-4d95-a042-cdfb8f9e701b" />
 <img width="335" height="87" alt="image" src="https://github.com/user-attachments/assets/662267e6-669c-4203-baf6-75223be0faa9" />
 <img width="717" height="399" alt="image" src="https://github.com/user-attachments/assets/a2e05829-15c9-4300-803e-a7fe8b41b4a2" />
