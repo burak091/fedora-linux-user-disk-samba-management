@@ -99,21 +99,21 @@ hostname
 
 
 ## Disk and Partition Management
-<img width="1655" height="951" alt="image" src="https://github.com/user-attachments/assets/59189302-490c-4df4-89b9-6fcb6dd143f0" />
+<img width="1655" height="951" alt="image" src="https://github.com/user-attachments/assets/59189302-490c-4df4-89b9-6fcb6dd143f0" /><br><br>
 
-<img width="757" height="732" alt="image" src="https://github.com/user-attachments/assets/edd216cc-1875-4acc-aa9e-09bc76038e5e" />
+<img width="757" height="732" alt="image" src="https://github.com/user-attachments/assets/edd216cc-1875-4acc-aa9e-09bc76038e5e" /><br><br>
 
-<img width="434" height="430" alt="image" src="https://github.com/user-attachments/assets/e9198bcb-3e8e-4610-9c26-ebd4ccf6975e" />
+<img width="434" height="430" alt="image" src="https://github.com/user-attachments/assets/e9198bcb-3e8e-4610-9c26-ebd4ccf6975e" /><br><br>
 
-<img width="435" height="423" alt="image" src="https://github.com/user-attachments/assets/1d83a900-0919-473d-b7d8-566f277fcb87" />
+<img width="435" height="423" alt="image" src="https://github.com/user-attachments/assets/1d83a900-0919-473d-b7d8-566f277fcb87" /><br><br>
 
-<img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/c63ad50e-2fa2-4275-85f4-d24cc684fd95" />
+<img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/c63ad50e-2fa2-4275-85f4-d24cc684fd95" /><br><br>
 
-<img width="438" height="424" alt="image" src="https://github.com/user-attachments/assets/43ae2222-626b-4783-af40-c65837cc1988" />
+<img width="438" height="424" alt="image" src="https://github.com/user-attachments/assets/43ae2222-626b-4783-af40-c65837cc1988" /><br><br>
 
-<img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/2b50761c-8f64-40fa-a922-c6fd7545574c" />
+<img width="442" height="425" alt="image" src="https://github.com/user-attachments/assets/2b50761c-8f64-40fa-a922-c6fd7545574c" /><br><br>
 
-<img width="753" height="729" alt="image" src="https://github.com/user-attachments/assets/d0b08823-7725-4399-a83b-a86a6d5bf2a8" />
+<img width="753" height="729" alt="image" src="https://github.com/user-attachments/assets/d0b08823-7725-4399-a83b-a86a6d5bf2a8" /><br><br>
 
 Before adding a new disk, the virtual machine was safely powered off using the sudo shutdown now command. After the system was completely shut down, the virtual machine hardware settings were accessed through VMware Workstation.
 From the ‘Add Hardware’ wizard, the Hard Disk option was selected, and the disk type was set to NVMe, as shown in the configuration steps.
