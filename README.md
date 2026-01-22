@@ -158,6 +158,10 @@ on the partitions accessible through the system’s directory structure and prep
 /etc/fstab. To edit this file, it is opened with the vi text editor using the command sudo vi /etc/fstab</code></pre>
 <img width="717" height="399" alt="image" src="https://github.com/user-attachments/assets/a2e05829-15c9-4300-803e-a7fe8b41b4a2" />
 <img width="1050" height="1027" alt="image" src="https://github.com/user-attachments/assets/283e585d-55c6-4211-a0e6-fe84fd2c4ed2" />
+<pre><code>UUID=2fa2e12f-3b45-4c1d-bf6c-8d3f3e2a1234 /share1 ext4 defaults 0 0
+UUID=5d3b9a8c-7e12-4a9e-9f0b-6d1a4f9c5678 /home/user1/share2 ext4 defaults 0 0
+#The above two entries have been manually added to the /etc/fstab configuration file to define the mount points for the newly created disk partitions.
+#The /etc/fstab file was edited to ensure that the disk configurations persist after a system reboot. Each entry specifies the mount point (/share1 and /home/user1/share2) and the filesystem type (ext4) of the partition. UUIDs are preferred over device names because they uniquely identify each partition regardless of boot order or the addition of new disks, ensuring reliable mounting. The defaults option applies standard mount parameters such as read/write access, automatic mounting at boot, and user accessibility. The final two fields, dump and fsck, are set to 0 0 to indicate that these partitions should not be included in dump backups and should not undergo automatic filesystem checks during startup, which is suitable for non-critical, data-sharing partitions.</code></pre>
 
 ## Samba Installation and File Sharing
 <img width="1902" height="775" alt="image" src="https://github.com/user-attachments/assets/560936bf-bb0d-42d5-92d3-a489a29cce86" />
