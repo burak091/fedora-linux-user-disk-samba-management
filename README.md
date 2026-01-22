@@ -72,6 +72,9 @@ visudo /etc/sudoers.d/user1
 #To assign sudo privileges to user1, a configuration file named user1 was created under the /etc/sudoers.d/ directory.
 #The file for defining sudo privileges for user1 was opened using the visudo /etc/sudoers.d/user1 command. Sudo configuration files are edited with the visudo utility rather than a standard text editor, as visudo performs syntax validation to prevent configuration errors.</code></pre>
 <img width="338" height="164" alt="image" src="https://github.com/user-attachments/assets/cb8dbfd6-49ed-4e64-8bbc-10fdbff6074d" />
+<pre><code>user1 ALL=(ALL)   ALL
+#The rule user1 ALL=(ALL) ALL grants the user1 account permission to execute any command on any host as any user using sudo.
+</code></pre>
 <img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/9b9d3045-e0fd-4d3b-838d-07d8fc1168d5" />
 <img width="356" height="113" alt="image" src="https://github.com/user-attachments/assets/84b9324e-df68-44ef-8eeb-f2f7ea46e536" />
 <img width="799" height="596" alt="image" src="https://github.com/user-attachments/assets/6ff320b7-a3d3-43cc-9842-5c8ac48c6431" />
