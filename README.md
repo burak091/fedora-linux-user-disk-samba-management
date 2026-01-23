@@ -279,7 +279,12 @@ firewall-cmd --reload
 #In this process, firewall-cmd --get-zones is used to list all available firewall zones, and firewall-cmd --get-default-zone checks the currently active default zone. The default zone is then changed to internal using firewall-cmd --set-default-zone=internal. The command firewall-cmd --info-zone=internal displays detailed information about the internal zone, including active services and network interfaces. To allow Samba traffic permanently, the Samba service is added to the internal zone using firewall-cmd --zone=internal --permanent --add-service=samba. After applying the changes with firewall-cmd --reload, the firewall configuration is reloaded, and the updated zone settings are verified again.</code></pre>
 
 <img width="875" height="229" alt="image" src="https://github.com/user-attachments/assets/f246f596-7fa8-4d62-b5e3-e0c039b97e9e" />
-In this step, SELinux file contexts are configured to allow Samba access to shared directories. The semanage fcontext --add --type samba_share_t command is used to define the appropriate SELinux context for /share1 and /home/user1/share2, including all files and subdirectories. After defining the contexts, the restorecon -R command is executed to apply the new SELinux labels recursively. This ensures that the specified directories are correctly labeled and accessible by the Samba service under SELinux enforcement.
+<pre><code>sudo semanage fcontext --add --type samba_share_t "/share1(/.*)?"
+sudo semanage fcontext --add --type samba_share_t "/home/user1/share2(/.*)?"
+sudo restorecon -R /share1
+sudo restorecon -R /home/user1/share2
+
+#In this step, SELinux file contexts are configured to allow Samba access to shared directories. The semanage fcontext --add --type samba_share_t command is used to define the appropriate SELinux context for /share1 and /home/user1/share2, including all files and subdirectories. After defining the contexts, the restorecon -R command is executed to apply the new SELinux labels recursively. This ensures that the specified directories are correctly labeled and accessible by the Samba service under SELinux enforcement.</code></pre>
 
 ## Windows Client Access
 <img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" />
