@@ -180,6 +180,22 @@ sudo passwd -a user1
 The (username parameter) refers to an existing local Linux user account that will be enabled for authentication in Samba services.
 This command allows the specified user to access shared resources over the Samba (SMB/CIFS) protocol using a Samba-specific password, which may be different from the system login password.</code></pre>
 <img width="563" height="303" alt="image" src="https://github.com/user-attachments/assets/7e9c3d72-e1e0-47d8-9d3a-94d925585e1a" />
+<pre><code>sudo ls -ld /share1
+#With this command, the ownership and permission information of the /share1 directory is displayed.
+sudo ls -ld /home/user1/share2
+#With this command, the ownership and permission information of the /home/user1/share2 directory is displayed.
+sudo chown -R :family /share1
+#This command changes the group ownership of /share1 and all its contents to the family group, while keeping the existing owner unchanged.This ensures that only members of the family group can access the directory according to group permissions.The /share1 directory is owned by root, which is not a Samba user. Therefore, owner permissions do not apply to Samba users. Access to the directory will be granted to Samba users (user1, user2, user3) through the family group permissions. Once the Samba configuration is completed, guest access will be disabled for the directory (/share1), so the permissions for 'others' will not be relevant.
+sudo chown -R :family /home/user1/share2
+#The command sudo chown -R :family /home/user1/share2 changes the group ownership of the directory to family. However, this has no practical effect for this directory because it will be accessed only by guest users. In Linux, guests are mapped to the nobody user, which is not part of any group. Therefore, access permissions are determined by the ‘others’ permissions, not by the group ownership. The group change was done solely to make the ownership settings consistent with the first shared directory (/share1).
+sudo chmod 775 /share1
+#The command sudo chmod 775 /share1 grants full permissions to the family group. The root user’s permissions are irrelevant for Windows access because root is not a Samba user. Since guest access will be disabled, the only important permissions for this share are the group permissions. Applying the permissions recursively would be more appropriate for accessing subdirectories; however, these permissions will be adjusted again in the Access Client section. During access testing, documents will be downloaded into the system using the wget tool and then moved or copied into the shared directories using the mv and cp commands. Once the documents are placed into the directories, the permissions will be adjusted recursively.
+sudo chmod 775 /home/user1/share2
+The command sudo chmod 775 /home/user1/share2 changes the directory permissions. Since this directory will be accessed only by guest users, which are mapped to the nobody user, the owner and group of the directory are irrelevant. Only the ‘others’ permissions matter for guest access.Applying the permissions recursively would be more appropriate for accessing subdirectories; however, these permissions will be adjusted again in the Access Client section. During access testing, documents will be downloaded into the system using the wget tool and then moved or copied into the shared directories using the mv and cp commands. Once the documents are placed into the directories, the permissions will be adjusted recursively.
+sudo ls -ld /share1
+#With this command, the ownership and permission information of the /share1 directory is displayed.
+sudo ls -ld /home/user1/share2
+#With this command, the ownership and permission information of the /home/user1/share2 directory is displayed.</code></pre>
 <img width="463" height="200" alt="image" src="https://github.com/user-attachments/assets/686f5ec6-6fcb-4323-9761-2dabdc79a3b1" />
 <img width="727" height="854" alt="image" src="https://github.com/user-attachments/assets/80fd30f7-e549-4b98-865d-43aa92779fdb" />
 <img width="838" height="1030" alt="image" src="https://github.com/user-attachments/assets/8616b06c-d69e-4e9e-9cc9-5d79778e3f57" />
