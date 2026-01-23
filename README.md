@@ -197,6 +197,8 @@ sudo ls -ld /share1
 sudo ls -ld /home/user1/share2
 #With this command, the ownership and permission information of the /home/user1/share2 directory is displayed.</code></pre>
 <img width="463" height="200" alt="image" src="https://github.com/user-attachments/assets/686f5ec6-6fcb-4323-9761-2dabdc79a3b1" />
+<pre><code>sudo vi /etc/samba/smb.conf
+#This command allows you to open and edit the Samba configuration file as root. Changes made here control Samba shares, user access, permissions, and other server settings.</code></pre>
 <img width="727" height="854" alt="image" src="https://github.com/user-attachments/assets/80fd30f7-e549-4b98-865d-43aa92779fdb" />
 <img width="838" height="1030" alt="image" src="https://github.com/user-attachments/assets/8616b06c-d69e-4e9e-9cc9-5d79778e3f57" />
 
