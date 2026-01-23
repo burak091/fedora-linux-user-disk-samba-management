@@ -170,7 +170,10 @@ UUID=8215ae91-bb9e-4ad7-8153-6bafe8b908b1  /home/user1/share2 ext4 defaults 0 0
 For the Fedora distribution, the YUM package manager is used to install required software packages.The install command
 is used to install a package, and samba specifies the name of the package to be installed. Therefore, the sudo yum install samba
 command installs the necessary software to enable directory sharing via the Samba protocol.</code></pre>
-<img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/7f97f099-363f-4ae6-9e01-c02b51c5ac4d" />
+<img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/7f97f099-363f-4ae6-9e01-c02b51c5ac4d" /><br><br>
+In the transaction summary section, the package manager indicates that 13 packages will be upgraded, 13 packages will be removed, and 1 package will be newly installed. This summary provides an overview of the actions required for the system to run the package in its most up-to-date and compatible state.
+
+When the system asks whether to proceed with these changes, the operation is confirmed. After approval, detailed information about the installed, removed, and upgraded packages can be viewed during the transaction process.
 <img width="485" height="272" alt="image" src="https://github.com/user-attachments/assets/ee7945fe-9516-4438-a922-dfb65755a056" />
 <img width="563" height="303" alt="image" src="https://github.com/user-attachments/assets/7e9c3d72-e1e0-47d8-9d3a-94d925585e1a" />
 <img width="463" height="200" alt="image" src="https://github.com/user-attachments/assets/686f5ec6-6fcb-4323-9761-2dabdc79a3b1" />
