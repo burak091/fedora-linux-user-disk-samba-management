@@ -270,6 +270,13 @@ The command sudo systemctl start smb is used to start the Samba (SMB) service on
 sudo systemctl status smb
 #Checking the current status of the Samba service.</code></pre>
 <img width="1176" height="1031" alt="image" src="https://github.com/user-attachments/assets/3130261e-151e-4909-a7c8-10f77f727aa6" />
+<pre><code>firewall-cmd --get-zones
+firewall-cmd --get-default-zone
+firewall-cmd --set-default-zone=internal
+firewall-cmd --info-zone=internal
+firewall-cmd --zone=internal --permanent --add-service=samba
+firewall-cmd --reload
+#In this process, firewall-cmd --get-zones is used to list all available firewall zones, and firewall-cmd --get-default-zone checks the currently active default zone. The default zone is then changed to internal using firewall-cmd --set-default-zone=internal. The command firewall-cmd --info-zone=internal displays detailed information about the internal zone, including active services and network interfaces. To allow Samba traffic permanently, the Samba service is added to the internal zone using firewall-cmd --zone=internal --permanent --add-service=samba. After applying the changes with firewall-cmd --reload, the firewall configuration is reloaded, and the updated zone settings are verified again.</code></pre>
 
 <img width="875" height="229" alt="image" src="https://github.com/user-attachments/assets/f246f596-7fa8-4d62-b5e3-e0c039b97e9e" />
 
