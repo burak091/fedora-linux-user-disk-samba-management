@@ -211,9 +211,9 @@ sudo ls -ld /home/user1/share2
    load printers = yes
    cups options = raw
    map to guest = Bad User
-   # Install samba-usershares package for support
+   #Install samba-usershares package for support
    include = /etc/samba/usershares.conf
-#The map to guest = bad user setting in Samba ensures that users who are not defined as Samba users are automatically mapped to the guest account
+   #The map to guest = bad user setting in Samba ensures that users who are not defined as Samba users are automatically mapped to the guest account
 [Share1]
    comment = First Share
    #This provides a descriptive label for the share. In this case, the share is labeled “First Share”, which helps users identify it in network browsing.
