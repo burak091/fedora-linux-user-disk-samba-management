@@ -201,7 +201,56 @@ sudo ls -ld /home/user1/share2
 #This command allows you to open and edit the Samba configuration file as root. Changes made here control Samba shares, user access, permissions, and other server settings.</code></pre>
 <img width="727" height="854" alt="image" src="https://github.com/user-attachments/assets/80fd30f7-e549-4b98-865d-43aa92779fdb" />
 <img width="838" height="1030" alt="image" src="https://github.com/user-attachments/assets/8616b06c-d69e-4e9e-9cc9-5d79778e3f57" />
+<pre><code>[global]
+   workgroup = SAMBA
+   security = user
+   passdb backend = tdbsam
 
+   printing = cups
+   printcap name = cups
+   load printers = yes
+   cups options = raw
+   map to guest = Bad User
+   # Install samba-usershares package for support
+   include = /etc/samba/usershares.conf
+#The map to guest = bad user setting in Samba ensures that users who are not defined as Samba users are automatically mapped to the guest account
+[Share1]
+   comment = First Share
+   #This provides a descriptive label for the share. In this case, the share is labeled “First Share”, which helps users identify it in network browsing.
+   path = /share1
+   #This specifies the directory on the server that will be shared. Here, /share1 is the folder that users will access through Samba.
+   browsable = yes
+   #Determines whether the share is visible when browsing the network. With yes, users can see this share in their network browser.
+   read only = no
+   #Defines the write permissions. Setting no allows users to read and write to this share.
+   guest ok = no
+   #Specifies whether guest (unauthenticated) access is allowed. no means only authenticated users can access the share.
+   valid users = user1 user2 user3
+   #Lists the users who are allowed to access this share. Only user1, user2, and user3 can log in and use this share.
+   directory mask = 775
+   #Sets the permissions for newly created directories inside the share. 775 means:Owner: read/write/execute Group: read/write/execute Others: read/execute
+   #Lists the users who are allowed to access this share. Only user1, user2, and user3 can log in and use this share.
+   create mask = 775
+   #Sets the permissions for newly created files inside the share. 775 ensures files are readable, writable, and executable by owner and group, readable and executable by others.
+   force group = family
+   #Forces all files and directories created in this share to belong to the family group, regardless of the creating user’s default group.
+[Share2]
+   comment = Second Share
+   #This is a descriptive label for the share. It helps users identify the share in the network browser, here labeled “Second Share”.
+   path = /home/user1/share2
+   #Specifies the directory on the server that will be shared. In this case, the folder /home/user1/share2 is shared through Samba.
+   browsable = yes
+   #Determines whether the share is visible when browsing the network. With yes, users can see this share in their network browser.
+   read only = no
+   #Allows users to read and write to this share. They can create, modify, or delete files and directories.
+   guest ok = yes
+   #Specifies that guest (unauthenticated) access is allowed. Users can access this share without a valid Samba account.
+   guest only = yes
+   #Specifies that access to this share is restricted to guest users only; only guest users can access it.
+   directory mask = 775
+   #Sets the permissions for newly created directories inside the share.Owner: read/write/execute Group: read/write/execute Others: read/execute.
+   create mask = 775
+   #Sets the permissions for newly created files inside the share. Files are readable, writable, and executable by owner and group, readable and executable by others.</code></pre>
 
 
 
