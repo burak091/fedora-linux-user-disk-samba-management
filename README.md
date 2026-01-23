@@ -165,6 +165,11 @@ UUID=8215ae91-bb9e-4ad7-8153-6bafe8b908b1  /home/user1/share2 ext4 defaults 0 0
 
 ## Samba Installation and File Sharing
 <img width="1902" height="775" alt="image" src="https://github.com/user-attachments/assets/560936bf-bb0d-42d5-92d3-a489a29cce86" />
+sudo yum install samba
+#In order to share our directories using the Samba protocol, the Samba package must be installed on the system.
+For the Fedora distribution, the YUM package manager is used to install required software packages.The install command
+is used to install a package, and samba specifies the name of the package to be installed. Therefore, the sudo yum install samba
+command installs the necessary software to enable directory sharing via the Samba protocol.
 <img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/7f97f099-363f-4ae6-9e01-c02b51c5ac4d" />
 <img width="485" height="272" alt="image" src="https://github.com/user-attachments/assets/ee7945fe-9516-4438-a922-dfb65755a056" />
 <img width="563" height="303" alt="image" src="https://github.com/user-attachments/assets/7e9c3d72-e1e0-47d8-9d3a-94d925585e1a" />
