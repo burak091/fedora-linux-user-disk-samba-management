@@ -171,10 +171,15 @@ For the Fedora distribution, the YUM package manager is used to install required
 is used to install a package, and samba specifies the name of the package to be installed. Therefore, the sudo yum install samba
 command installs the necessary software to enable directory sharing via the Samba protocol.</code></pre>
 <img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/7f97f099-363f-4ae6-9e01-c02b51c5ac4d" /><br><br>
-In the transaction summary section, the package manager indicates that 13 packages will be upgraded, 13 packages will be removed, and 1 package will be newly installed. This summary provides an overview of the actions required for the system to run the package in its most up-to-date and compatible state.
-
-When the system asks whether to proceed with these changes, the operation is confirmed. After approval, detailed information about the installed, removed, and upgraded packages can be viewed during the transaction process.
+In the transaction summary section, the package manager indicates that 13 packages will be upgraded, 13 packages will be removed, and 1 package will be newly installed. This summary provides an overview of the actions required for the system to run the package in its most up-to-date and compatible state.When the system asks whether to proceed with these changes, the operation is confirmed. After approval, detailed information about the installed, removed, and upgraded packages can be viewed during the transaction process.
 <img width="485" height="272" alt="image" src="https://github.com/user-attachments/assets/ee7945fe-9516-4438-a922-dfb65755a056" />
+<pre><code>sudo passwd -a user1
+sudo passwd -a user2
+sudo passwd -a user1
+#The smbpasswd -a (username) command is used to add a user to the Samba user database.The -a (add) option creates a new Samba account for the specified user.
+The (username parameter) refers to an existing local Linux user account that will be enabled for authentication in Samba services.</code></pre>
+
+This command allows the specified user to access shared resources over the Samba (SMB/CIFS) protocol using a Samba-specific password, which may be different from the system login password.
 <img width="563" height="303" alt="image" src="https://github.com/user-attachments/assets/7e9c3d72-e1e0-47d8-9d3a-94d925585e1a" />
 <img width="463" height="200" alt="image" src="https://github.com/user-attachments/assets/686f5ec6-6fcb-4323-9761-2dabdc79a3b1" />
 <img width="727" height="854" alt="image" src="https://github.com/user-attachments/assets/80fd30f7-e549-4b98-865d-43aa92779fdb" />
