@@ -263,7 +263,14 @@ sudo ls -ld /home/user1/share2
 
 ## Firewall, SELinux and Service Verification
 <img width="773" height="604" alt="image" src="https://github.com/user-attachments/assets/7edfa737-8f6c-4317-bd4d-f5611a9fd76c" />
+<pre><code>sudo systemctl status smb
+#The command sudo systemctl status smb is used to check the current status of the Samba (SMB) service on a Linux system. It shows whether the service is running, stopped, or has failed, along with detailed information such as uptime, process ID, and recent log messages. Administrator privileges are required to view the full service status.
+sudo systemctl start smb
+The command sudo systemctl start smb is used to start the Samba (SMB) service on a Linux system. It activates the service so that file and printer sharing over the network becomes available.Administrator privileges (sudo) are required to start the service.
+sudo systemctl status smb
+#Checking the current status of the Samba service.</code></pre>
 <img width="1176" height="1031" alt="image" src="https://github.com/user-attachments/assets/3130261e-151e-4909-a7c8-10f77f727aa6" />
+
 <img width="875" height="229" alt="image" src="https://github.com/user-attachments/assets/f246f596-7fa8-4d62-b5e3-e0c039b97e9e" />
 
 ## Windows Client Access
