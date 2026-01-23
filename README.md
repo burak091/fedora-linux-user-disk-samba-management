@@ -255,7 +255,8 @@ sudo ls -ld /home/user1/share2
 
 
 <img width="629" height="237" alt="image" src="https://github.com/user-attachments/assets/0fa17e71-4a64-4c98-8a3a-7852fa042830" />
-
+<pre><code>sudo testparm
+#The sudo testparm command is used to check the Samba configuration file for errors and display the effective settings that Samba will apply.</code></pre>
 
 
 
