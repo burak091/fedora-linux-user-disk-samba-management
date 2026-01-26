@@ -291,6 +291,23 @@ sudo restorecon -R /home/user1/share2
 When the directory /home/user1/share2 is shared via Samba on a Linux system, all of its parent directories must have at least read and execute permissions for the Samba users.
 The read (r) permission allows listing the contents of a directory, while the execute (x) permission allows entering directories and accessing files and subdirectories within them.
 Without execute permission on any parent directory, users cannot access the shared directory or its files, even if they have full permissions on the shared folder itself.
+[user1@fedora43 ~]$ ls -ld /home/user1/share2
+drwxrwxr-x. 3 root family 4096 Jan 19 18:51 /home/user1/share2
+On the shared directory /home/user1/share2, full permissions are granted to the family group, of which the Samba users are members.
+[user1@fedora43 ~]$ ls -ld /home/user1
+drwx------. 5 user1 user1 4096 Jan 19 22:03 /home/user1
+The parent directory /home/user1 is owned by the user user1 and the group user1. While user1 has full permissions on this directory, it is not the only Samba user.
+user2 and user3 are also Samba users, but they do not have user or group permissions on this directory. 
+[user1@fedora43 ~]$ sudo chmod 705 /home/user1
+[sudo] password for user1:
+Since changing ownership is not desired, permissions can be granted through the others permission set.
+By assigning read and write permissions to others, users user2 and user3, as members of the others category, gain the necessary access rights to the directory without modifying its ownership.
+[user1@fedora43 ~]$ ls -ld /home
+drwxr-xr-x. 6 root root 4096 Jan 19 17:19 /home
+The /home directory is owned by the root user and the root group. Since Samba users are neither the owner nor members of the owning group, they fall under the others permission category.
+Because the others category already has read and execute permissions on the /home directory, Samba users have sufficient access rights to read and traverse this parent directory.
+Therefore, no permission changes are required on the /home directory with respect to Samba access.
+
 <img width="832" height="558" alt="image" src="https://github.com/user-attachments/assets/0bf445e8-0afd-4835-be90-7b87b8353bf3" />
 <img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/775cde45-8c60-4f92-bae6-da724ac2ce95" />
 <img width="743" height="661" alt="image" src="https://github.com/user-attachments/assets/e884d5e0-79b1-4a7a-8d06-76b7d4e44d92" />
