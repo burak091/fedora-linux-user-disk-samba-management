@@ -415,7 +415,17 @@ user3 can create and modify its own files and folders within the shared director
 These observations confirm that user3 has complete access and modification rights, demonstrating that the permission settings on the shared resource are correctly applied.
 <br><br>
 <img width="1111" height="626" alt="image" src="https://github.com/user-attachments/assets/343c0b1e-1e34-4052-8316-5d024942381f" />
+<pre><code>taskkill /f /im explorer.exe
+#taskkill /f /im explorer.exe resets the File Explorer session and prevents UI‑level SMB credential reuse. It does not terminate SMB sessions on its own.This command prevents Windows from automatically reconnecting to the SMB share using user3’s credentials after the active SMB session has been terminated.
+start explorer.exe
+#This command is used to start (or restart) the Windows Explorer process, which provides the main graphical user interface of Windows.
+net use /delete *
+#net use /delete * disconnects active smb connections. (user3 disconnects)
+net use \\192.168.1.28\Share1 /user:user4 *
+#This command is used to establish an SMB network connection to the shared folder using the user4 account.</pre></code>
 <img width="1156" height="372" alt="image" src="https://github.com/user-attachments/assets/6ba04b23-06e3-4d2a-89e1-b9f79453146c" />
+<pre><code>sudo smbstatus
+#The sudo smbstatus command allows verification of which users are currently connected to the shared directories. As expected, the output confirms that user4 is unable to actively connect, as user4 is not a Samba user.</pre></code>
 <img width="833" height="783" alt="image" src="https://github.com/user-attachments/assets/e2605f87-959c-45a8-9c2d-c8cdf63fb591" />
 <img width="1106" height="862" alt="image" src="https://github.com/user-attachments/assets/5a03a324-99ac-4538-a646-5fb3dc237716" />
 <img width="1111" height="503" alt="image" src="https://github.com/user-attachments/assets/1f7ad104-262d-4be4-8377-3d000e477246" />
