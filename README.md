@@ -319,7 +319,7 @@ sudo cp /share1/extrafiles /share1/README /home/user1/share2
 The purpose of executing these commands was to download several files from the internet and place them into the shared directories in order to verify access permissions.
 Specifically, the goal was to test whether Samba users could access the files in the first shared directory, and whether guest users could access the files in the second shared directory
 <img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/775cde45-8c60-4f92-bae6-da724ac2ce95" />
-These permission commands are explained in samba
+These permission commands are explained in the Samba installation and file sharing section of the project.The commands were re-executed to configure the permissions and ownership of the files added to the shared directories.
 <img width="743" height="661" alt="image" src="https://github.com/user-attachments/assets/e884d5e0-79b1-4a7a-8d06-76b7d4e44d92" />
 <img width="610" height="451" alt="image" src="https://github.com/user-attachments/assets/010a3c56-95a9-4ab5-9ebb-05c3c81e010e" />
 <img width="740" height="679" alt="image" src="https://github.com/user-attachments/assets/e461e633-1c60-4ba4-844e-be19b37834b3" />
