@@ -372,6 +372,8 @@ net use /delete *
 net use \\192.168.1.28\Share1 /user:user2 *
 #This command is used to establish an SMB network connection to the shared folder using the user2 account.</pre></code>
 <img width="1120" height="331" alt="image" src="https://github.com/user-attachments/assets/adaff6a8-6bf5-415d-ab92-40d056795930" />
+<pre><code>sudo smbstatus
+#The sudo smbstatus command allows verification of which users are currently connected to the shared directories. As intended, the output confirms that user2 is actively connected.</pre></code>
 <img width="978" height="631" alt="image" src="https://github.com/user-attachments/assets/26f10ed6-4aa5-4641-b35d-85477417c963" />
 <img width="1003" height="628" alt="image" src="https://github.com/user-attachments/assets/2c493085-23d6-4754-b6a9-3adb3c7ed2ca" />
 <img width="973" height="629" alt="image" src="https://github.com/user-attachments/assets/47a5fe13-c84a-4a0a-9186-9f0d770917d7" />
