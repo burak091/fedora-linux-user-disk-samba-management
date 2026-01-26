@@ -385,8 +385,7 @@ net use \\192.168.1.28\Share1 /user:user2 *
 <br>Read files previously added to the share<br>
 <br>Access and read files in folders created by user1<br>
 <br>Create and edit its own folders and files within the share<br>
-
-This confirms that user2 has the expected level of access and modification rights on the shared resource
+<br>This confirms that user2 has the expected level of access and modification rights on the shared resource<br>
 <img width="1110" height="629" alt="image" src="https://github.com/user-attachments/assets/2fb84589-21eb-4b17-b552-41c802d41429" />
 <img width="1176" height="387" alt="image" src="https://github.com/user-attachments/assets/e8ed3153-a95b-40cf-9d01-376b36441576" />
 <img width="979" height="630" alt="image" src="https://github.com/user-attachments/assets/6749a1be-9077-43dd-a80b-e748801a05a3" />
