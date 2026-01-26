@@ -324,7 +324,8 @@ Specifically, the goal was to test whether Samba users could access the files in
 <br>In the next step, a shortcut to the first shared directory on the Linux system will be created on the host operating system, Windows 11. On the Windows 11 host system, the Desktop is opened and the mouse pointer is moved to an empty area.<br>
 <br>Left click,New,Shortcut<br>
 <br><br>
-<img width="610" height="451" alt="image" src="https://github.com/user-attachments/assets/010a3c56-95a9-4ab5-9ebb-05c3c81e010e" />
+<img width="610" height="451" alt="image" src="https://github.com/user-attachments/assets/010a3c56-95a9-4ab5-9ebb-05c3c81e010e" /><br><br>
+<br>In the dialog box that appears, enter the shared directory address in the format \\<host-ip>\<sharedfoldername><br>
 <img width="740" height="679" alt="image" src="https://github.com/user-attachments/assets/e461e633-1c60-4ba4-844e-be19b37834b3" />
 <img width="452" height="500" alt="image" src="https://github.com/user-attachments/assets/074ff10d-d7ac-4e79-8c76-29ac71d83aad" />
 <img width="611" height="451" alt="image" src="https://github.com/user-attachments/assets/d4cdfaf9-b481-43e0-b0cf-a9a6d0761ca8" />
