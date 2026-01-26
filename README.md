@@ -426,7 +426,9 @@ net use \\192.168.1.28\Share1 /user:user4 *
 <img width="1156" height="372" alt="image" src="https://github.com/user-attachments/assets/6ba04b23-06e3-4d2a-89e1-b9f79453146c" />
 <pre><code>sudo smbstatus
 #The sudo smbstatus command allows verification of which users are currently connected to the shared directories. As expected, the output confirms that user4 is unable to actively connect, as user4 is not a Samba user.</pre></code>
-<img width="833" height="783" alt="image" src="https://github.com/user-attachments/assets/e2605f87-959c-45a8-9c2d-c8cdf63fb591" />
+<img width="833" height="783" alt="image" src="https://github.com/user-attachments/assets/e2605f87-959c-45a8-9c2d-c8cdf63fb591" <br>
+In our Linux configuration, the /home/user1/share2 directory was set to allow access only as the Guest user. However, when attempting to access this share from a Windows client, the system prompts for credentials.
+To enable proper Guest access over the network, it is necessary to allow insecure guest logons in Windows. This can be done via the Group Policy Editor (gpedit.msc)<br>
 <img width="1106" height="862" alt="image" src="https://github.com/user-attachments/assets/5a03a324-99ac-4538-a646-5fb3dc237716" />
 <img width="1111" height="503" alt="image" src="https://github.com/user-attachments/assets/1f7ad104-262d-4be4-8377-3d000e477246" />
 <img width="778" height="819" alt="image" src="https://github.com/user-attachments/assets/c37ea856-9f08-4de9-9722-a1ac087b1bcd" />
