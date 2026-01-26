@@ -436,7 +436,10 @@ Network<br>
 Lanman Workstation<br>
 Enable insecure guest logons
 <br><br>
-<img width="1111" height="503" alt="image" src="https://github.com/user-attachments/assets/1f7ad104-262d-4be4-8377-3d000e477246" />
+<img width="1111" height="503" alt="image" src="https://github.com/user-attachments/assets/1f7ad104-262d-4be4-8377-3d000e477246" /><br><br>
+To apply the changes made in Group Policy, we execute the following command in the Command Prompt:
+<pre><code>gpupdate /force</code></pre>
+<br><br>
 <img width="778" height="819" alt="image" src="https://github.com/user-attachments/assets/c37ea856-9f08-4de9-9722-a1ac087b1bcd" />
 <img width="610" height="448" alt="image" src="https://github.com/user-attachments/assets/eeb6e532-e381-4878-8b79-2488c2b59d8e" />
 <img width="612" height="450" alt="image" src="https://github.com/user-attachments/assets/9a55fdd2-b0c3-447c-b611-db9721cc8271" />
