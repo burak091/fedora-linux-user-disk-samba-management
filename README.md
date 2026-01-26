@@ -343,9 +343,8 @@ Specifically, the goal was to test whether Samba users could access the files in
 <br>Access to the shared directory is confirmed by successfully listing its contents.Access to the files that were previously placed in the shared directory is tested<br>
 <br><br>
 <img width="821" height="810" alt="image" src="https://github.com/user-attachments/assets/346e2729-0e7a-4168-b94d-de7996415566" /><br><br>
-<br>The attempt to access the files that were previously placed in the shared directory was unsuccessful, despite the permissions and ownership being configured correctly.<br>
+<br>The attempt to access the files that were previously placed in the shared directory was unsuccessful, despite the permissions and ownership being configured correctly.This failure is caused by the SELinux security module. In the following steps, additional configuration will be performed to resolve this issue.<br>
 <br><br>
-This failure is caused by the SELinux security module. In the following steps, additional configuration will be performed to resolve this issue.
 <img width="1034" height="843" alt="image" src="https://github.com/user-attachments/assets/44a4d82f-b7d8-464e-9ed1-036a74c5ce30" />
 <img width="981" height="634" alt="image" src="https://github.com/user-attachments/assets/79b8e72f-4893-4166-ae50-c0354e14b192" />
 <img width="995" height="811" alt="image" src="https://github.com/user-attachments/assets/24878cbd-68d3-4f15-a519-18af30550a11" />
