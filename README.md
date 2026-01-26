@@ -430,11 +430,11 @@ net use \\192.168.1.28\Share1 /user:user4 *
 In our Linux configuration, the /home/user1/share2 directory was set to allow access only as the Guest user. However, when attempting to access this share from a Windows client, the system prompts for credentials.
 To enable proper Guest access over the network, it is necessary to allow insecure guest logons in Windows. This can be done via the Group Policy Editor (gpedit.msc)<br><br>
 <img width="1106" height="862" alt="image" src="https://github.com/user-attachments/assets/5a03a324-99ac-4538-a646-5fb3dc237716" /><br><br>
-Computer Configuration
-    └─ Administrative Templates
-        └─ Network
-            └─ Lanman Workstation
-                └─ Enable insecure guest logons
+Computer Configuration<br>
+Administrative Templates<br>
+Network<br>
+Lanman Workstation<br>
+Enable insecure guest logons
 <br><br>
 <img width="1111" height="503" alt="image" src="https://github.com/user-attachments/assets/1f7ad104-262d-4be4-8377-3d000e477246" />
 <img width="778" height="819" alt="image" src="https://github.com/user-attachments/assets/c37ea856-9f08-4de9-9722-a1ac087b1bcd" />
