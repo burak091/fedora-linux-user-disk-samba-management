@@ -330,7 +330,9 @@ Specifically, the goal was to test whether Samba users could access the files in
 <img width="740" height="679" alt="image" src="https://github.com/user-attachments/assets/e461e633-1c60-4ba4-844e-be19b37834b3" /><br><br>
 <br>At this point, the Windows credentials window is displayed<br>
 <br><br>
-<img width="452" height="500" alt="image" src="https://github.com/user-attachments/assets/074ff10d-d7ac-4e79-8c76-29ac71d83aad" />
+<img width="452" height="500" alt="image" src="https://github.com/user-attachments/assets/074ff10d-d7ac-4e79-8c76-29ac71d83aad" /><br><br>
+<br>The credentials for user1 are entered<br>
+<br><br>
 <img width="611" height="451" alt="image" src="https://github.com/user-attachments/assets/d4cdfaf9-b481-43e0-b0cf-a9a6d0761ca8" />
 <img width="291" height="268" alt="image" src="https://github.com/user-attachments/assets/c90d7ad0-baf4-4487-ba7b-61b61ba8a1f4" />
 <img width="980" height="631" alt="image" src="https://github.com/user-attachments/assets/3dcaa47d-89a7-4263-9722-be094b0cab85" />
