@@ -309,7 +309,17 @@ Because the others category already has read and execute permissions on the /hom
 Therefore, no permission changes are required on the /home directory with respect to Samba access.<br><br>
 
 <img width="832" height="558" alt="image" src="https://github.com/user-attachments/assets/0bf445e8-0afd-4835-be90-7b87b8353bf3" />
+<pre><code>sudo wget http://ftp.debian.org/debian/README  
+sudo wget http://ftp.debian.org/debian/extrafiles
+#The purpose of executing these commands is to download several files from the internet
+sudo mv extrafiles README /share1
+#By executing the command sudo mv extrafiles README /share1, the files named extrafiles and README are moved into the first shared directory /share1.
+sudo cp /share1/extrafiles /share1/README /home/user1/share2
+#By executing the command sudo cp /share1/extrafiles /share1/README /home/user1/share2, the files named extrafiles and README are copied into the second shared directory /home/user1/share2.</code></pre>
+The purpose of executing these commands was to download several files from the internet and place them into the shared directories in order to verify access permissions.
+Specifically, the goal was to test whether Samba users could access the files in the first shared directory, and whether guest users could access the files in the second shared directory
 <img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/775cde45-8c60-4f92-bae6-da724ac2ce95" />
+
 <img width="743" height="661" alt="image" src="https://github.com/user-attachments/assets/e884d5e0-79b1-4a7a-8d06-76b7d4e44d92" />
 <img width="610" height="451" alt="image" src="https://github.com/user-attachments/assets/010a3c56-95a9-4ab5-9ebb-05c3c81e010e" />
 <img width="740" height="679" alt="image" src="https://github.com/user-attachments/assets/e461e633-1c60-4ba4-844e-be19b37834b3" />
