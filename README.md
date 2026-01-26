@@ -287,7 +287,7 @@ sudo restorecon -R /home/user1/share2
 #In this step, SELinux file contexts are configured to allow Samba access to shared directories. The semanage fcontext --add --type samba_share_t command is used to define the appropriate SELinux context for /share1 and /home/user1/share2, including all files and subdirectories. After defining the contexts, the restorecon -R command is executed to apply the new SELinux labels recursively. This ensures that the specified directories are correctly labeled and accessible by the Samba service under SELinux enforcement.</code></pre>
 
 ## Windows Client Access
-<img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" />
+<img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" /><br><br>
 When the directory /home/user1/share2 is shared via Samba on a Linux system, all of its parent directories must have at least read and execute permissions for the Samba users.
 The read (r) permission allows listing the contents of a directory, while the execute (x) permission allows entering directories and accessing files and subdirectories within them.
 Without execute permission on any parent directory, users cannot access the shared directory or its files, even if they have full permissions on the shared folder itself.
