@@ -407,7 +407,13 @@ net use \\192.168.1.28\Share1 /user:user3 *
 <img width="974" height="630" alt="image" src="https://github.com/user-attachments/assets/9d4b3f51-f9ad-4108-bb23-ae500950c272" />
 <img width="980" height="628" alt="image" src="https://github.com/user-attachments/assets/eac50070-66ae-4023-9a3a-186c4ed1c105" />
 <img width="976" height="630" alt="image" src="https://github.com/user-attachments/assets/36ed0de1-a001-4544-8060-5d6c462924fd" />
-<img width="980" height="630" alt="image" src="https://github.com/user-attachments/assets/6670d4a2-c584-42e8-9879-7adb485bfb19" />
+<img width="980" height="630" alt="image" src="https://github.com/user-attachments/assets/6670d4a2-c584-42e8-9879-7adb485bfb19" /><br><br>
+As shown in the figures above, user3 is able to fully exercise its assigned permissions on the shared directory. Specifically:<br>
+user3 can access, read, and edit files that were previously added to the share.<br>
+user3 can edit files and folders created by both user1 and user2.<br>
+user3 can create and modify its own files and folders within the shared directory.<br>
+These observations confirm that user3 has complete access and modification rights, demonstrating that the permission settings on the shared resource are correctly applied.
+<br><br>
 <img width="1111" height="626" alt="image" src="https://github.com/user-attachments/assets/343c0b1e-1e34-4052-8316-5d024942381f" />
 <img width="1156" height="372" alt="image" src="https://github.com/user-attachments/assets/6ba04b23-06e3-4d2a-89e1-b9f79453146c" />
 <img width="833" height="783" alt="image" src="https://github.com/user-attachments/assets/e2605f87-959c-45a8-9c2d-c8cdf63fb591" />
