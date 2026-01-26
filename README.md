@@ -381,11 +381,11 @@ net use \\192.168.1.28\Share1 /user:user2 *
 <img width="982" height="772" alt="image" src="https://github.com/user-attachments/assets/9daadc47-3623-4625-9915-263991ac4060" />
 <img width="975" height="631" alt="image" src="https://github.com/user-attachments/assets/e66a5134-2548-4ee6-b25d-efe327366283" />
 <img width="976" height="632" alt="image" src="https://github.com/user-attachments/assets/14fc94dd-9685-4a66-a1cc-2c3df8937074" /><br><br>
-<p>As shown in the above figures, user2 can fully utilize its permissions on the shared directory. user2 is able to:
+<div>As shown in the above figures, user2 can fully utilize its permissions on the shared directory. user2 is able to:
 Read files previously added to the share
 Access and read files in folders created by user1
 Create and edit its own folders and files within the share
-This confirms that user2 has the expected level of access and modification rights on the shared resource</p>
+This confirms that user2 has the expected level of access and modification rights on the shared resource</div>
 <br><br>
 <img width="1110" height="629" alt="image" src="https://github.com/user-attachments/assets/2fb84589-21eb-4b17-b552-41c802d41429" />
 <img width="1176" height="387" alt="image" src="https://github.com/user-attachments/assets/e8ed3153-a95b-40cf-9d01-376b36441576" />
