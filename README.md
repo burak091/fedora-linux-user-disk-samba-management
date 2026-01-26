@@ -354,7 +354,7 @@ Specifically, the goal was to test whether Samba users could access the files in
 <br><br>
 <img width="623" height="226" alt="image" src="https://github.com/user-attachments/assets/08bf4ac5-84da-406a-b2ca-c52e4787e08c" /><br><br>
 <pre><code></code>sudo setsebool -P samba_export_all_rw on
-The command sudo setsebool -P samba_export_all_rw on enables SELinux to allow Samba to read from and write to exported directories, provided that the underlying Linux file permissions permit such access.
+#The command sudo setsebool -P samba_export_all_rw on enables SELinux to allow Samba to read from and write to exported files and directories, provided that the underlying Linux file and directory permissions permit such access.
 </pre></code>
 <img width="978" height="631" alt="image" src="https://github.com/user-attachments/assets/5b7413f8-1190-4917-b656-32b84a2ca41f" />
 <img width="820" height="807" alt="image" src="https://github.com/user-attachments/assets/5ba10b58-f54b-418d-85d4-87455c9cf7be" />
