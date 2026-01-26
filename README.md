@@ -337,7 +337,7 @@ Specifically, the goal was to test whether Samba users could access the files in
 <br>In this tab, the name under which the shared directory will be displayed can be specified. In this case, it is left unchanged.<br>
 <br><br>
 <img width="291" height="268" alt="image" src="https://github.com/user-attachments/assets/c90d7ad0-baf4-4487-ba7b-61b61ba8a1f4" /><br><br>
-<br>At the end of these steps, a shortcut to the first shared directory is created.<br>
+<br>At the end of these steps, a shortcut to the first shared directory is created.By double-clicking the shortcut, access to the shared folder is attempted.<br>
 <br><br>
 <img width="980" height="631" alt="image" src="https://github.com/user-attachments/assets/3dcaa47d-89a7-4263-9722-be094b0cab85" />
 <img width="821" height="810" alt="image" src="https://github.com/user-attachments/assets/346e2729-0e7a-4168-b94d-de7996415566" />
