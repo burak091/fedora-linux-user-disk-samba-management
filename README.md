@@ -321,8 +321,8 @@ Specifically, the goal was to test whether Samba users could access the files in
 <img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/775cde45-8c60-4f92-bae6-da724ac2ce95" />
 <br>These permission commands are explained in the Samba installation and file sharing section of the project.The commands were re-executed to configure the permissions and ownership of the files added to the shared directories.<br>
 <img width="743" height="661" alt="image" src="https://github.com/user-attachments/assets/e884d5e0-79b1-4a7a-8d06-76b7d4e44d92" />
-<br>In the next step, a shortcut to the first shared directory on the Linux system will be created on the host operating system, Windows 11.<br>
-
+<br>In the next step, a shortcut to the first shared directory on the Linux system will be created on the host operating system, Windows 11. On the Windows 11 host system, the Desktop is opened and the mouse pointer is moved to an empty area.<br>
+Left click>New>Shortcut
 <img width="610" height="451" alt="image" src="https://github.com/user-attachments/assets/010a3c56-95a9-4ab5-9ebb-05c3c81e010e" />
 <img width="740" height="679" alt="image" src="https://github.com/user-attachments/assets/e461e633-1c60-4ba4-844e-be19b37834b3" />
 <img width="452" height="500" alt="image" src="https://github.com/user-attachments/assets/074ff10d-d7ac-4e79-8c76-29ac71d83aad" />
