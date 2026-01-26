@@ -359,7 +359,9 @@ Specifically, the goal was to test whether Samba users could access the files in
 <img width="978" height="631" alt="image" src="https://github.com/user-attachments/assets/5b7413f8-1190-4917-b656-32b84a2ca41f" /><br><br>
 <br>Access to the contents of the previously placed files in the shared directory is tested<br>
 <br><br>
-<img width="820" height="807" alt="image" src="https://github.com/user-attachments/assets/5ba10b58-f54b-418d-85d4-87455c9cf7be" />
+<img width="820" height="807" alt="image" src="https://github.com/user-attachments/assets/5ba10b58-f54b-418d-85d4-87455c9cf7be" /><br><br>
+<br>After the final SELinux configuration, access to the previously added files was successfully achieved<br>
+<br><br>
 <img width="1108" height="625" alt="image" src="https://github.com/user-attachments/assets/b3c91c1f-e19f-4cd8-85c4-76649365c75e" />
 <img width="1120" height="331" alt="image" src="https://github.com/user-attachments/assets/adaff6a8-6bf5-415d-ab92-40d056795930" />
 <img width="978" height="631" alt="image" src="https://github.com/user-attachments/assets/26f10ed6-4aa5-4641-b35d-85477417c963" />
