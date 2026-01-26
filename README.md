@@ -325,7 +325,7 @@ Specifically, the goal was to test whether Samba users could access the files in
 <br>Left click,New,Shortcut<br>
 <br><br>
 <img width="610" height="451" alt="image" src="https://github.com/user-attachments/assets/010a3c56-95a9-4ab5-9ebb-05c3c81e010e" /><br><br>
-<br>In the dialog box that appears, enter the shared directory address in the format \\(host-ip)\(sharedfoldername)<br>
+<br>In the dialog box that appears, enter the shared directory address in the format \\(server-ip)\(sharedfoldername)<br>
 <br><br>
 <img width="740" height="679" alt="image" src="https://github.com/user-attachments/assets/e461e633-1c60-4ba4-844e-be19b37834b3" />
 <img width="452" height="500" alt="image" src="https://github.com/user-attachments/assets/074ff10d-d7ac-4e79-8c76-29ac71d83aad" />
