@@ -363,6 +363,9 @@ Specifically, the goal was to test whether Samba users could access the files in
 <br>After the final SELinux configuration, access to the previously added files is successfully achieved<br>
 <br><br>
 <img width="1108" height="625" alt="image" src="https://github.com/user-attachments/assets/b3c91c1f-e19f-4cd8-85c4-76649365c75e" />
+taskkill /f /im explorer.exe
+net use /delete *
+
 <img width="1120" height="331" alt="image" src="https://github.com/user-attachments/assets/adaff6a8-6bf5-415d-ab92-40d056795930" />
 <img width="978" height="631" alt="image" src="https://github.com/user-attachments/assets/26f10ed6-4aa5-4641-b35d-85477417c963" />
 <img width="1003" height="628" alt="image" src="https://github.com/user-attachments/assets/2c493085-23d6-4754-b6a9-3adb3c7ed2ca" />
