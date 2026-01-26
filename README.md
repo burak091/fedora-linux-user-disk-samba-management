@@ -452,8 +452,8 @@ As shown in the figures above, we can list the contents of the shared folder and
 <img width="985" height="826" alt="image" src="https://github.com/user-attachments/assets/20fe1959-cd3b-4dcf-8c0b-01892bd4b58a" />
 <img width="1135" height="833" alt="image" src="https://github.com/user-attachments/assets/8ca30296-e4d5-4abf-bf60-404f5645b3ae" />
 <img width="995" height="790" alt="image" src="https://github.com/user-attachments/assets/dc4872ea-dc59-481f-8024-967caa61cbc1" />
-<img width="1123" height="638" alt="image" src="https://github.com/user-attachments/assets/ae63ee99-a5be-420a-87a6-95f692ad5d7f" />
-
+<img width="1123" height="638" alt="image" src="https://github.com/user-attachments/assets/ae63ee99-a5be-420a-87a6-95f692ad5d7f" /><br><br>
+However, we cannot edit the files that were previously added to the share, nor can we create new files or folders. This is due to restricted permissions, as the Guest user does not have full access rights.
 
 
 
