@@ -288,6 +288,9 @@ sudo restorecon -R /home/user1/share2
 
 ## Windows Client Access
 <img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" />
+When the directory /home/user1/share2 is shared via Samba on a Linux system, all of its parent directories must have at least read and execute permissions for the Samba users.
+The read (r) permission allows listing the contents of a directory, while the execute (x) permission allows entering directories and accessing files and subdirectories within them.
+Without execute permission on any parent directory, users cannot access the shared directory or its files, even if they have full permissions on the shared folder itself.
 <img width="832" height="558" alt="image" src="https://github.com/user-attachments/assets/0bf445e8-0afd-4835-be90-7b87b8353bf3" />
 <img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/775cde45-8c60-4f92-bae6-da724ac2ce95" />
 <img width="743" height="661" alt="image" src="https://github.com/user-attachments/assets/e884d5e0-79b1-4a7a-8d06-76b7d4e44d92" />
