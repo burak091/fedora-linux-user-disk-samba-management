@@ -447,7 +447,7 @@ The figures above illustrate the steps for creating a shortcut to the second sha
 <br><br>
 <img width="978" height="629" alt="image" src="https://github.com/user-attachments/assets/b702aaae-c5ce-49bb-96d6-3d14781a80aa" />
 <img width="822" height="752" alt="image" src="https://github.com/user-attachments/assets/8b127f79-4ab8-46ee-9ce8-161b221572c6" /><br><br>
-As shown in the figures above, we can list the contents of the shared folder and access previously added files, opening and reading them successfully.
+As shown in the figures above, we can list the contents of the shared folder without being prompted for credentials, and we can access previously added files, opening and reading them successfully.
 <br><br>
 <img width="985" height="826" alt="image" src="https://github.com/user-attachments/assets/20fe1959-cd3b-4dcf-8c0b-01892bd4b58a" />
 <img width="1135" height="833" alt="image" src="https://github.com/user-attachments/assets/8ca30296-e4d5-4abf-bf60-404f5645b3ae" />
