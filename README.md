@@ -442,7 +442,9 @@ To apply the changes made in Group Policy, we execute the following command in t
 <br><br>
 <img width="778" height="819" alt="image" src="https://github.com/user-attachments/assets/c37ea856-9f08-4de9-9722-a1ac087b1bcd" />
 <img width="610" height="448" alt="image" src="https://github.com/user-attachments/assets/eeb6e532-e381-4878-8b79-2488c2b59d8e" />
-<img width="612" height="450" alt="image" src="https://github.com/user-attachments/assets/9a55fdd2-b0c3-447c-b611-db9721cc8271" />
+<img width="612" height="450" alt="image" src="https://github.com/user-attachments/assets/9a55fdd2-b0c3-447c-b611-db9721cc8271" /><br><br>
+The figures above illustrate the steps for creating a shortcut to the second shared folder.
+<br><br>
 <img width="978" height="629" alt="image" src="https://github.com/user-attachments/assets/b702aaae-c5ce-49bb-96d6-3d14781a80aa" />
 <img width="822" height="752" alt="image" src="https://github.com/user-attachments/assets/8b127f79-4ab8-46ee-9ce8-161b221572c6" />
 <img width="985" height="826" alt="image" src="https://github.com/user-attachments/assets/20fe1959-cd3b-4dcf-8c0b-01892bd4b58a" />
