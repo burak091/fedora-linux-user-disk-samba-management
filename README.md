@@ -41,6 +41,23 @@ systemctl reload sshd</code></pre>
 <pre><code>#SSH access is provided via the PuTTY terminal.</code></pre>
 
 ## User Management
+This section focuses on creating and managing user accounts on Fedora Linux.<br>
+User Creation<br>
+-New users are created using the useradd command.<br>
+-Home directories are automatically generated for each user.<br>
+-Passwords are assigned using the passwd command.<br>
+-User home directories under /home are verified.<br>
+-Group Management<br>
+-A new group (e.g., family) is created.<br>
+-Selected users are added to this group.<br>
+-Group membership is used later for permission and access control.<br>
+In this section, administrative privileges are assigned to specific users.<br>
+Key steps include:<br>
+-Granting sudo permissions to a user.<br>
+-Creating a custom configuration file under /etc/sudoers.d/ instead of editing the main sudoers file.<br>
+-Allowing the selected user to execute administrative commands securely.<br>
+-This method follows best practices and reduces the risk of system misconfiguration.<br>
+-This approach helps organize users and manage permissions efficiently.
 <img width="383" height="96" alt="image" src="https://github.com/user-attachments/assets/82289dce-9cf4-429c-b545-a8801e1a7b57" />
 <pre><code>useradd -m user1
 useradd -m user2
