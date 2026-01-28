@@ -339,6 +339,15 @@ sudo restorecon -R /home/user1/share2
 
 ## Windows Client Access
 
+First, the permissions of the parent directories of the first shared folder were configured to ensure that Samba users had at least read and execute access. This was necessary to allow proper traversal to the shared directory.
+Before access to the shared directories was established, several test files were placed inside the folders to verify whether the file contents could be accessed correctly.
+Next, the permissions and ownership of the shared directories were reconfigured recursively to ensure consistent and correct access control across all files and subdirectories.
+To simplify access from the Windows client, shortcuts to the shared folders were created on the Windows desktop.
+The first shared folder was then accessed using Samba user accounts, and tests were performed to confirm that the permissions assigned to Samba users were functioning as intended.
+The second shared folder was accessed as a guest user, and access tests were conducted to verify that the permissions defined for guest access were working correctly.
+Before performing the guest access test, the necessary Windows local security policy was enabled via gpedit.msc to allow connections to network shares using guest access.
+An additional configuration was performed to ensure that SELinux did not prevent users from exercising read and write permissions on the previously added test files.
+
 <img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" /><br><br>
 When the directory /home/user1/share2 is shared via Samba on a Linux system, all of its parent directories must have at least read and execute permissions for the Samba users.
 The read (r) permission allows listing the contents of a directory, while the execute (x) permission allows entering directories and accessing files and subdirectories within them.
