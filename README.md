@@ -174,6 +174,11 @@ sudo mkfs.ext4 /dev/nvme0n1p2
 
 
 ## Mount Configuration
+This section explains how to mount disk partitions and make them persistent by editing /etc/fstab.
+-Creating mount points for each partition.<br>
+-Mounting the partitions manually.<br>
+-Adding entries to /etc/fstab using UUIDs to ensure automatic mounting at boot.<br>
+These steps make the disk space persistent and ready for user access or sharing.<br>
 <img width="458" height="64" alt="image" src="https://github.com/user-attachments/assets/92f6c55d-c344-4669-9ce5-5cda4c02ced9" />
 <pre><code>sudo mkdir /share1
 sudo mkdir /home/user1/share2
