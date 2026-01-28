@@ -308,6 +308,11 @@ sudo ls -ld /home/user1/share2
 
 
 ## Firewall, SELinux and Service Verification
+Security is an important part of this project.<br>
+-SELinux policies are configured to allow Samba access while maintaining system security.<br>
+-The firewall is updated to permit only necessary services.<br>
+-Unnecessary exposure of the system is avoided.<br>
+This ensures that file sharing works correctly without compromising system integrity.<br>
 <img width="773" height="604" alt="image" src="https://github.com/user-attachments/assets/7edfa737-8f6c-4317-bd4d-f5611a9fd76c" />
 <pre><code>sudo systemctl status smb
 #The command sudo systemctl status smb is used to check the current status of the Samba (SMB) service on a Linux system. It shows whether the service is running, stopped, or has failed, along with detailed information such as uptime, process ID, and recent log messages. Administrator privileges are required to view the full service status.
