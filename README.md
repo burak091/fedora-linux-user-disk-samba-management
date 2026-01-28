@@ -57,7 +57,7 @@ Key steps include:<br>
 -Creating a custom configuration file under /etc/sudoers.d/ instead of editing the main sudoers file.<br>
 -Allowing the selected user to execute administrative commands securely.<br>
 -This method follows best practices and reduces the risk of system misconfiguration.<br>
--This approach helps organize users and manage permissions efficiently.
+-This approach helps organize users and manage permissions efficiently.<br>
 <img width="383" height="96" alt="image" src="https://github.com/user-attachments/assets/82289dce-9cf4-429c-b545-a8801e1a7b57" />
 <pre><code>useradd -m user1
 useradd -m user2
