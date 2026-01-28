@@ -522,3 +522,10 @@ However, we cannot edit the files that were previously added to the share, nor c
 
 
 ## Conclusion
+This project provides a complete, real-world example of Fedora Linux system administration.<br>
+By following the steps in order, the system is transformed into:<br>
+-A remotely manageable Linux server<br>
+-A multi-user environment with controlled privileges<br>
+-A system with properly managed storage<br>
+-A secure file-sharing server using Samba<br>
+Overall, this repository demonstrates practical skills that are directly applicable to real Linux server environments.
