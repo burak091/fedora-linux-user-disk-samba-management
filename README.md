@@ -13,7 +13,7 @@ The project is designed as a hands-on portfolio for system administration roles.
 - Deployment: Virtual Machine
 - Access Method: SSH (PuTTY from Windows host)
 - Host OS: Windows
-- User Context: Initial setup performed as root, subsequent tasks executed with a sudo-enabled user
+- User Context: Initial setup performed as root, subsequent tasks executed with a sudo-enabled user<br>
 Using a virtual machine allows safe testing of system-level operations without affecting a physical system.
 ## Initial Setup (Root SSH & PuTTY)
 <img width="1184" height="542" alt="image" src="https://github.com/user-attachments/assets/e6ee97f1-5c64-4b79-b4f6-40c547f211f5" />
