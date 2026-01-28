@@ -127,10 +127,10 @@ hostname
 ## Disk and Partition Management
 This section explains how additional storage is added and configured.<br>
 The process includes:<br>
-Adding a new 10 GB virtual disk to the virtual machine.<br>
-Detecting the disk in Fedora.<br>
-Creating disk partitions using partitioning tools.<br>
-Formatting the partitions with the ext4 filesystem.<br>
+-Adding a new 10 GB virtual disk to the virtual machine.<br>
+-Detecting the disk in Fedora.<br>
+-Creating disk partitions using partitioning tools.<br>
+-Formatting the partitions with the ext4 filesystem.<br>
 <img width="1655" height="951" alt="image" src="https://github.com/user-attachments/assets/59189302-490c-4df4-89b9-6fcb6dd143f0" /><br><br>
 
 <img width="757" height="732" alt="image" src="https://github.com/user-attachments/assets/edd216cc-1875-4acc-aa9e-09bc76038e5e" /><br><br>
