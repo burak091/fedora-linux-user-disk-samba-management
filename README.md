@@ -47,6 +47,7 @@ User Creation<br>
 -Home directories are automatically generated for each user.<br>
 -Passwords are assigned using the passwd command.<br>
 -User home directories under /home are verified.<br>
+-User details for the newly created accounts were reviewed in /etc/passwd.<br>
 Group Management<br>
 -A new group (e.g., family) is created.<br>
 -Selected users are added to this group.<br>
