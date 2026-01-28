@@ -47,7 +47,7 @@ User Creation<br>
 -Home directories are automatically generated for each user.<br>
 -Passwords are assigned using the passwd command.<br>
 -User home directories under /home are verified.<br>
--Group Management<br>
+Group Management<br>
 -A new group (e.g., family) is created.<br>
 -Selected users are added to this group.<br>
 -Group membership is used later for permission and access control.<br>
