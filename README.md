@@ -201,6 +201,15 @@ UUID=8215ae91-bb9e-4ad7-8153-6bafe8b908b1  /home/user1/share2 ext4 defaults 0 0
 #The /etc/fstab file was edited to ensure that the disk configurations persist after a system reboot. Each entry specifies the mount point (/share1 and /home/user1/share2) and the filesystem type (ext4) of the partition. UUIDs are preferred over device names because they uniquely identify each partition regardless of boot order or the addition of new disks, ensuring reliable mounting. The defaults option applies standard mount parameters such as read/write access, automatic mounting at boot, and user accessibility. The final two fields, dump and fsck, are set to 0 0 to indicate that these partitions should not be included in dump backups and should not undergo automatic filesystem checks during startup, which is suitable for non-critical, data-sharing partitions.</code></pre>
 
 ## Samba Installation and File Sharing
+This section describes how network file sharing is implemented using Samba.<br>
+The following actions are performed:<br>
+-Installing the Samba package on Fedora.<br>
+-Configuring shared directories.<br>
+-Setting appropriate directory ownership and permissions.<br>
+-Creating Samba users and passwords.<br>
+-Configuring firewall rules to allow Samba traffic.<br>
+-Adjusting SELinux settings to permit file sharing.<br>
+As a result, shared directories become accessible from Windows and Linux systems within the same network.<br>
 <img width="1902" height="775" alt="image" src="https://github.com/user-attachments/assets/560936bf-bb0d-42d5-92d3-a489a29cce86" />
 <pre><code>sudo yum install samba
 #In order to share our directories using the Samba protocol, the Samba package must be installed on the system.
