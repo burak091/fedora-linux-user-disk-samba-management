@@ -20,7 +20,7 @@ This section describes the steps required to enable remote administration of the
 The following actions are performed:<br>
 Verifying that the sshd service is installed and running.<br>
 Configuring SSH to allow root login by modifying the SSH configuration file.<br>
-Restarting the SSH service to apply changes.<br>
+Reloading the SSH service to apply changes.<br>
 Connecting to the Fedora system remotely using PuTTY.<br>
 These steps ensure that the system can be managed securely from a remote machine.
 <img width="1184" height="542" alt="image" src="https://github.com/user-attachments/assets/e6ee97f1-5c64-4b79-b4f6-40c547f211f5" />
