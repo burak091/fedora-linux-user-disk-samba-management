@@ -338,26 +338,27 @@ sudo restorecon -R /home/user1/share2
 #In this step, SELinux file contexts are configured to allow Samba access to shared directories. The semanage fcontext --add --type samba_share_t command is used to define the appropriate SELinux context for /share1 and /home/user1/share2, including all files and subdirectories. After defining the contexts, the restorecon -R command is executed to apply the new SELinux labels recursively. This ensures that the specified directories are correctly labeled and accessible by the Samba service under SELinux enforcement.</code></pre>
 
 ## Windows Client Access
+
 <img width="760" height="247" alt="image" src="https://github.com/user-attachments/assets/658f1d7e-9ece-4030-8ac8-e0f61a08adab" /><br><br>
 When the directory /home/user1/share2 is shared via Samba on a Linux system, all of its parent directories must have at least read and execute permissions for the Samba users.
 The read (r) permission allows listing the contents of a directory, while the execute (x) permission allows entering directories and accessing files and subdirectories within them.
 Without execute permission on any parent directory, users cannot access the shared directory or its files, even if they have full permissions on the shared folder itself.<br><br>
-[user1@fedora43 ~]$ ls -ld /home/user1/share2<br><br>
-drwxrwxr-x. 3 root family 4096 Jan 19 18:51 /home/user1/share2<br><br>
-On the shared directory /home/user1/share2, full permissions are granted to the family group, of which the Samba users are members.<br><br>
-[user1@fedora43 ~]$ ls -ld /home/user1<br><br>
-drwx------. 5 user1 user1 4096 Jan 19 22:03 /home/user1<br><br>
+[user1@fedora43 ~]$ ls -ld /home/user1/share2<br>
+drwxrwxr-x. 3 root family 4096 Jan 19 18:51 /home/user1/share2<br>
+On the shared directory /home/user1/share2, full permissions are granted to the family group, of which the Samba users are members.<br>
+[user1@fedora43 ~]$ ls -ld /home/user1<br>
+drwx------. 5 user1 user1 4096 Jan 19 22:03 /home/user1<br>
 The parent directory /home/user1 is owned by the user user1 and the group user1. While user1 has full permissions on this directory, it is not the only Samba user.
 user2 and user3 are also Samba users, but they do not have user or group permissions on this directory.<br><br> 
-[user1@fedora43 ~]$ sudo chmod 705 /home/user1<br><br>
-[sudo] password for user1:<br><br>
-Since changing ownership is not desired, permissions can be granted through the others permission set.<br><br>
-By assigning read and write permissions to others, users user2 and user3, as members of the others category, gain the necessary access rights to the directory without modifying its ownership.<br><br>
-[user1@fedora43 ~]$ ls -ld /home<br><br>
-drwxr-xr-x. 6 root root 4096 Jan 19 17:19 /home<br><br>
+[user1@fedora43 ~]$ sudo chmod 705 /home/user1<br>
+[sudo] password for user1:<br>
+Since changing ownership is not desired, permissions can be granted through the others permission set.<br>
+By assigning read and write permissions to others, users user2 and user3, as members of the others category, gain the necessary access rights to the directory without modifying its ownership.<br>
+[user1@fedora43 ~]$ ls -ld /home<br>
+drwxr-xr-x. 6 root root 4096 Jan 19 17:19 /home<br>
 The /home directory is owned by the root user and the root group. Since Samba users are neither the owner nor members of the owning group, they fall under the others permission category.
 Because the others category already has read and execute permissions on the /home directory, Samba users have sufficient access rights to read and traverse this parent directory.
-Therefore, no permission changes are required on the /home directory with respect to Samba access.<br><br>
+Therefore, no permission changes are required on the /home directory with respect to Samba access.<br>
 
 <img width="832" height="558" alt="image" src="https://github.com/user-attachments/assets/0bf445e8-0afd-4835-be90-7b87b8353bf3" />
 <pre><code>sudo wget http://ftp.debian.org/debian/README  
